@@ -34,7 +34,7 @@ Official landing page for **Cyberville**, a software development company based i
 1. **Google Search Console** — [search.google.com/search-console](https://search.google.com/search-console) → add property `cyberville.tech` (Domain type) → verify with the TXT record it gives you at your domain registrar → submit `https://cyberville.tech/sitemap.xml`
 2. **Bing Webmaster Tools** — import directly from Google Search Console at [bing.com/webmasters](https://www.bing.com/webmasters)
 3. **Google Business Profile** — create one for "Cyberville" in Juba; link it to cyberville.tech. This is the single biggest local ranking factor.
-4. Add your website link to your Instagram and TikTok bios (social signals + backlinks).
+4. Add your website link to your Instagram, TikTok, Facebook and X bios (social signals + backlinks).
 5. Ask Global Pharmacy, BMG Tours, Jambah and GurushNOW to link back to cyberville.tech — real client backlinks boost rankings.
 
 Rankings take a few weeks after indexing. Search Console shows exactly which queries you appear for.
