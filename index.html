@@ -21,8 +21,8 @@
   <meta name="ICBM" content="4.8594, 31.5713" />
 
   <!-- Favicon & icons -->
+  <link rel="icon" href="/assets/favicon.png" type="image/png" sizes="96x96" />
   <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml" />
-  <link rel="icon" href="/assets/icon-512.png" sizes="512x512" type="image/png" />
   <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png" />
   <link rel="manifest" href="/site.webmanifest" />
   <meta name="theme-color" content="#05070f" />
@@ -752,22 +752,6 @@
 </head>
 <body id="top">
 
-  <!-- Shared SVG gradient definitions -->
-  <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
-    <defs>
-      <linearGradient id="brand-ring" x1="8" y1="52" x2="56" y2="14" gradientUnits="userSpaceOnUse">
-        <stop offset="0" stop-color="#112da3"/>
-        <stop offset=".55" stop-color="#205ca3"/>
-        <stop offset="1" stop-color="#2cc4f4"/>
-      </linearGradient>
-      <radialGradient id="brand-core" cx=".35" cy=".3" r=".9">
-        <stop offset="0" stop-color="#7fe0ff"/>
-        <stop offset=".45" stop-color="#22b7ef"/>
-        <stop offset="1" stop-color="#1449a8"/>
-      </radialGradient>
-    </defs>
-  </svg>
-
   <a class="skip-link" href="#main">Skip to main content</a>
 
   <!-- ===== Header ===== -->
@@ -775,16 +759,7 @@
     <div class="container">
       <nav aria-label="Main navigation">
         <a class="logo" href="#top" aria-label="Cyberville — home">
-          <svg class="logo-mark" viewBox="0 0 64 64" role="img" aria-hidden="true">
-            <rect width="64" height="64" rx="15" fill="#04050d"/>
-            <g transform="rotate(-28 32 32)">
-              <ellipse cx="32" cy="32" rx="24" ry="10" fill="none" stroke="url(#brand-ring)" stroke-width="3.2" stroke-linecap="round"/>
-              <ellipse cx="32" cy="32" rx="24" ry="10" fill="none" stroke="#2cc4f4" stroke-width="3.2" stroke-linecap="round" stroke-dasharray="26 125" stroke-dashoffset="-18" opacity=".9"/>
-            </g>
-            <circle cx="32" cy="32" r="17" fill="#22b7ef" opacity=".14"/>
-            <circle cx="32" cy="32" r="10" fill="url(#brand-core)"/>
-            <circle cx="13.7" cy="45.6" r="3.4" fill="#eaf7ff"/>
-          </svg>
+          <img class="logo-mark" src="/assets/logo-mark.png" alt="Cyberville logo" width="38" height="38" />
           Cyberville
         </a>
 
@@ -1126,7 +1101,7 @@
             <label for="message">Tell us about your project</label>
             <textarea id="message" name="message" placeholder="We run a pharmacy in Juba and we need..." required></textarea>
           </div>
-          <button type="submit" class="btn btn-primary" style="justify-content:center;">Send Message</button>
+          <button type="submit" class="btn btn-primary" style="justify-content:center;">Send via WhatsApp</button>
         </form>
       </div>
     </section>
@@ -1137,16 +1112,7 @@
     <div class="container footer-inner">
       <div>
         <a class="logo" href="#top" style="margin-bottom:8px;" aria-label="Cyberville — back to top">
-          <svg class="logo-mark" viewBox="0 0 64 64" role="img" aria-hidden="true" style="width:32px;height:32px;">
-            <rect width="64" height="64" rx="15" fill="#04050d"/>
-            <g transform="rotate(-28 32 32)">
-              <ellipse cx="32" cy="32" rx="24" ry="10" fill="none" stroke="url(#brand-ring)" stroke-width="3.2" stroke-linecap="round"/>
-              <ellipse cx="32" cy="32" rx="24" ry="10" fill="none" stroke="#2cc4f4" stroke-width="3.2" stroke-linecap="round" stroke-dasharray="26 125" stroke-dashoffset="-18" opacity=".9"/>
-            </g>
-            <circle cx="32" cy="32" r="17" fill="#22b7ef" opacity=".14"/>
-            <circle cx="32" cy="32" r="10" fill="url(#brand-core)"/>
-            <circle cx="13.7" cy="45.6" r="3.4" fill="#eaf7ff"/>
-          </svg>
+          <img class="logo-mark" src="/assets/logo-mark.png" alt="" width="32" height="32" style="border-radius:8px;" />
           Cyberville
         </a>
         <p>© <span id="year"></span> Cyberville · Software Development Company<br />Juba, South Sudan · cyberville.tech</p>
@@ -1207,19 +1173,18 @@
     );
     document.querySelectorAll(".reveal").forEach((el) => observer.observe(el));
 
-    // Quote form -> opens email client with prefilled message
+    // Quote form -> opens WhatsApp with prefilled message
     document.getElementById("quote-form").addEventListener("submit", function (e) {
       e.preventDefault();
       const data = new FormData(this);
-      const subject = encodeURIComponent("New Project Inquiry — " + data.get("service"));
-      const body = encodeURIComponent(
-        "Name: " + data.get("name") +
+      const text =
+        "Hi Cyberville, I will like to build this software or website." +
+        "\n\nName: " + data.get("name") +
         "\nBusiness: " + (data.get("business") || "-") +
-        "\nEmail: " + data.get("email") +
-        "\nService Needed: " + data.get("service") +
-        "\n\nProject Details:\n" + data.get("message")
-      );
-      window.location.href = "mailto:cybervilletech@gmail.com?subject=" + subject + "&body=" + body;
+        "\nWhat I need: " + data.get("service") +
+        "\n\nProject Details:\n" + data.get("message") +
+        "\n\nReply to me at: " + data.get("email");
+      window.open("https://wa.me/211922734334?text=" + encodeURIComponent(text), "_blank", "noopener");
     });
   </script>
 </body>
