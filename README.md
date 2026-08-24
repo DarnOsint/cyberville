@@ -8,7 +8,7 @@ Official landing page for **Cyberville**, a software development company based i
 - **Global Pharmacy** — Pharmacy management software
 - **BMG Tours** — Company website
 - **Jambah** — [jambah.app](https://jambah.app)
-- **GuruShnow** — [gurushnow.com](https://gurushnow.com)
+- **GurushNOW** — [gurushnow.com](https://gurushnow.com)
 
 ## Contact
 - Phone / WhatsApp: +211 92 273 4334
@@ -35,7 +35,7 @@ Official landing page for **Cyberville**, a software development company based i
 2. **Bing Webmaster Tools** — import directly from Google Search Console at [bing.com/webmasters](https://www.bing.com/webmasters)
 3. **Google Business Profile** — create one for "Cyberville" in Juba; link it to cyberville.tech. This is the single biggest local ranking factor.
 4. Add your website link to your Instagram and TikTok bios (social signals + backlinks).
-5. Ask Global Pharmacy, BMG Tours, Jambah and GuruShnow to link back to cyberville.tech — real client backlinks boost rankings.
+5. Ask Global Pharmacy, BMG Tours, Jambah and GurushNOW to link back to cyberville.tech — real client backlinks boost rankings.
 
 Rankings take a few weeks after indexing. Search Console shows exactly which queries you appear for.
 
