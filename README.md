@@ -18,7 +18,26 @@ Official landing page for **Cyberville**, a software development company based i
 ## Tech Stack
 - Pure HTML, CSS & vanilla JS — zero dependencies, zero build step
 - Google Fonts (Sora + Inter)
-- Fully responsive, SEO-ready with Open Graph tags
+- Custom SVG logo & favicon (assets/)
+- Fully responsive, accessible (WCAG-minded) and SEO-optimized
+
+## SEO Features
+- Keyword-targeted title/meta for "software company in Juba, South Sudan" searches
+- JSON-LD structured data: `ProfessionalService`, `WebSite`, `FAQPage`
+- Open Graph + Twitter card with generated share image (`assets/og-image.png`)
+- Local signals: geo meta tags, address, phone in `tel:` format
+- `robots.txt` + `sitemap.xml`
+- FAQ section targeting real customer questions
+- Fast: single page, no frameworks, inline CSS
+
+### After deploying to Vercel (one-time)
+1. **Google Search Console** — [search.google.com/search-console](https://search.google.com/search-console) → add property `cyberville.tech` (Domain type) → verify with the TXT record it gives you at your domain registrar → submit `https://cyberville.tech/sitemap.xml`
+2. **Bing Webmaster Tools** — import directly from Google Search Console at [bing.com/webmasters](https://www.bing.com/webmasters)
+3. **Google Business Profile** — create one for "Cyberville" in Juba; link it to cyberville.tech. This is the single biggest local ranking factor.
+4. Add your website link to your Instagram and TikTok bios (social signals + backlinks).
+5. Ask Global Pharmacy, BMG Tours, Jambah and GuruShnow to link back to cyberville.tech — real client backlinks boost rankings.
+
+Rankings take a few weeks after indexing. Search Console shows exactly which queries you appear for.
 
 ## Local Development
 No build tools needed. Just open `index.html` in a browser, or serve it:
