@@ -4,8 +4,8 @@
   "description": "Software development company in Juba, South Sudan. Pharmacy systems, hospital software, POS for malls, websites and mobile apps.",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#05070f",
-  "theme_color": "#05070f",
+  "background_color": "#ffffff",
+  "theme_color": "#0260fe",
   "icons": [
     { "src": "/assets/icon-512.png", "sizes": "512x512", "type": "image/png" },
     { "src": "/assets/apple-touch-icon.png", "sizes": "180x180", "type": "image/png" },
