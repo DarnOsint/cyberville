@@ -24,13 +24,13 @@
   <link rel="icon" href="/assets/favicon.png?v=2" type="image/png" sizes="96x96" />
   <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png" />
   <link rel="manifest" href="/site.webmanifest" />
-  <meta name="theme-color" content="#05070f" />
+  <meta name="theme-color" content="#0260fe" />
 
   <!-- Open Graph -->
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://cyberville.tech/" />
   <meta property="og:title" content="Cyberville — Software Development Company in Juba, South Sudan" />
-  <meta property="og:description" content="We build pharmacy systems, hospital software, POS systems for malls & restaurants, websites and mobile apps. Trusted by Global Pharmacy, BMG Tours, Jambah, GurushNOW, TheSeaPride and Beeshop's Place." />
+  <meta property="og:description" content="We build pharmacy systems, hospital software, POS systems for malls & restaurants, websites and mobile apps. Trusted by Global Pharmacy, BMG Tours, Jambah, GurushNOW, TheSeaPride, Beeshop's Place and Racleground International Church." />
   <meta property="og:image" content="https://cyberville.tech/assets/og-image.png" />
   <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="630" />
@@ -61,7 +61,7 @@
     "alternateName": "Cyberville Tech Juba",
     "description": "Software development company in Juba, South Sudan building pharmacy management systems, hospital management systems, POS software for malls, shops and restaurants, websites and mobile apps.",
     "url": "https://cyberville.tech/",
-    "logo": "https://cyberville.tech/assets/favicon.svg",
+    "logo": "https://cyberville.tech/assets/logo-mark.jpeg",
     "image": "https://cyberville.tech/assets/og-image.png",
     "telephone": "+211922734334",
     "email": "cybervilletech@gmail.com",
@@ -146,17 +146,22 @@
 
   <style>
     :root {
-      --bg: #05070f;
-      --surface: #0c1322;
-      --surface-2: #101a30;
-      --border: rgba(148, 163, 184, 0.14);
-      --text: #e6edf7;
-      --muted: #94a3b8;
-      --accent: #22b7ef;
-      --accent-deep: #2f6fd6;
-      --gradient: linear-gradient(90deg, #35c8f5, #2f6fd6);
+      --bg: #ffffff;
+      --bg-alt: #f8fafc;
+      --surface: #ffffff;
+      --surface-2: #f1f5f9;
+      --border: rgba(15, 23, 42, 0.08);
+      --text: #0f172a;
+      --muted: #64748b;
+      --accent: #0260fe;
+      --accent-light: #e8f0ff;
+      --accent-hover: #0148cc;
+      --gradient: linear-gradient(135deg, #0260fe, #0091ff);
       --radius: 16px;
       --container: 1140px;
+      --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.04);
+      --shadow-md: 0 4px 20px rgba(0, 0, 0, 0.06);
+      --shadow-lg: 0 12px 40px rgba(0, 0, 0, 0.1);
     }
 
     * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -189,7 +194,7 @@
       top: 12px;
       z-index: 200;
       background: var(--accent);
-      color: #04121c;
+      color: #fff;
       padding: 10px 20px;
       border-radius: 999px;
       font-weight: 600;
@@ -216,27 +221,32 @@
     }
     .btn-primary {
       background: var(--gradient);
-      color: #04121c;
+      color: #fff;
     }
-    .btn-primary:hover { transform: translateY(-2px); box-shadow: 0 12px 30px rgba(34, 183, 239, 0.35); }
+    .btn-primary:hover { transform: translateY(-2px); box-shadow: 0 8px 28px rgba(2, 96, 254, 0.35); }
     .btn-ghost {
-      border: 1px solid var(--border);
+      border: 1.5px solid var(--border);
       color: var(--text);
-      background: rgba(255, 255, 255, 0.02);
+      background: rgba(255, 255, 255, 0.8);
+      backdrop-filter: blur(4px);
     }
-    .btn-ghost:hover { border-color: var(--accent); color: #bae6fd; }
+    .btn-ghost:hover { border-color: var(--accent); color: var(--accent); background: var(--accent-light); }
 
     /* ===== Header ===== */
     header {
       position: fixed;
       inset: 0 0 auto 0;
       z-index: 100;
-      backdrop-filter: blur(14px);
-      background: rgba(5, 7, 15, 0.75);
+      backdrop-filter: blur(16px) saturate(180%);
+      -webkit-backdrop-filter: blur(16px) saturate(180%);
+      background: rgba(255, 255, 255, 0.82);
       border-bottom: 1px solid transparent;
-      transition: border-color 0.3s ease;
+      transition: border-color 0.3s ease, box-shadow 0.3s ease;
     }
-    header.scrolled { border-bottom-color: var(--border); }
+    header.scrolled {
+      border-bottom-color: var(--border);
+      box-shadow: 0 1px 8px rgba(0, 0, 0, 0.04);
+    }
 
     nav {
       display: flex;
@@ -253,8 +263,17 @@
       font-weight: 800;
       font-size: 1.25rem;
       letter-spacing: -0.02em;
+      color: var(--text);
     }
-    .logo-mark { display: block; width: 38px; height: 38px; }
+    .logo-mark {
+      display: block;
+      width: 38px;
+      height: 38px;
+      border-radius: 10px;
+      object-fit: contain;
+      background: var(--surface-2);
+      border: 1px solid var(--border);
+    }
 
     .nav-links {
       display: flex;
@@ -268,7 +287,7 @@
       font-weight: 500;
       transition: color 0.2s;
     }
-    .nav-links a:hover { color: var(--text); }
+    .nav-links a:hover { color: var(--accent); }
     .nav-cta { display: flex; align-items: center; gap: 16px; }
     .nav-cta .btn { padding: 10px 22px; font-size: 0.88rem; }
 
@@ -294,14 +313,15 @@
       position: relative;
       padding: 170px 0 90px;
       overflow: hidden;
+      background: linear-gradient(180deg, var(--accent-light) 0%, var(--bg) 60%);
     }
     .hero::before {
       content: "";
       position: absolute;
       inset: 0;
       background:
-        radial-gradient(700px 400px at 85% 10%, rgba(34, 183, 239, 0.13), transparent 60%),
-        radial-gradient(600px 420px at 10% 25%, rgba(47, 111, 214, 0.14), transparent 60%);
+        radial-gradient(700px 400px at 85% 10%, rgba(2, 96, 254, 0.07), transparent 60%),
+        radial-gradient(600px 420px at 10% 25%, rgba(0, 145, 255, 0.06), transparent 60%);
       pointer-events: none;
     }
     .hero::after {
@@ -309,8 +329,8 @@
       position: absolute;
       inset: 0;
       background-image:
-        linear-gradient(rgba(148,163,184,0.05) 1px, transparent 1px),
-        linear-gradient(90deg, rgba(148,163,184,0.05) 1px, transparent 1px);
+        linear-gradient(rgba(15, 23, 42, 0.03) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(15, 23, 42, 0.03) 1px, transparent 1px);
       background-size: 56px 56px;
       mask-image: radial-gradient(ellipse 80% 60% at 50% 30%, black 40%, transparent 100%);
       pointer-events: none;
@@ -331,9 +351,9 @@
       gap: 8px;
       padding: 8px 16px;
       border-radius: 999px;
-      border: 1px solid var(--border);
-      background: rgba(34, 183, 239, 0.08);
-      color: #bae6fd;
+      border: 1px solid rgba(2, 96, 254, 0.15);
+      background: rgba(2, 96, 254, 0.06);
+      color: var(--accent);
       font-size: 0.82rem;
       font-weight: 500;
       margin-bottom: 24px;
@@ -343,18 +363,19 @@
       height: 8px;
       border-radius: 50%;
       background: var(--accent);
-      box-shadow: 0 0 0 4px rgba(34, 183, 239, 0.2);
+      box-shadow: 0 0 0 4px rgba(2, 96, 254, 0.15);
       animation: pulse 2s infinite;
     }
     @keyframes pulse {
-      0%, 100% { box-shadow: 0 0 0 4px rgba(34, 183, 239, 0.25); }
-      50% { box-shadow: 0 0 0 7px rgba(34, 183, 239, 0.05); }
+      0%, 100% { box-shadow: 0 0 0 4px rgba(2, 96, 254, 0.15); }
+      50% { box-shadow: 0 0 0 7px rgba(2, 96, 254, 0.03); }
     }
 
     .hero h1 {
       font-size: clamp(2.3rem, 5vw, 3.6rem);
       letter-spacing: -0.03em;
       margin-bottom: 20px;
+      color: var(--text);
     }
     .grad-text {
       background: var(--gradient);
@@ -372,19 +393,19 @@
 
     /* Terminal card */
     .terminal {
-      background: var(--surface);
-      border: 1px solid var(--border);
+      background: #0f172a;
+      border: 1px solid rgba(255, 255, 255, 0.08);
       border-radius: var(--radius);
       overflow: hidden;
-      box-shadow: 0 30px 80px rgba(0, 0, 0, 0.45);
+      box-shadow: 0 30px 80px rgba(15, 23, 42, 0.3);
     }
     .terminal-bar {
       display: flex;
       align-items: center;
       gap: 7px;
       padding: 14px 18px;
-      border-bottom: 1px solid var(--border);
-      background: var(--surface-2);
+      border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+      background: rgba(255, 255, 255, 0.04);
     }
     .terminal-bar i {
       width: 11px; height: 11px; border-radius: 50%; display: block;
@@ -395,18 +416,19 @@
     .terminal-bar span {
       margin-left: auto;
       font-size: 0.72rem;
-      color: var(--muted);
+      color: #94a3b8;
     }
     .terminal-body {
       padding: 22px;
       font-family: ui-monospace, "SF Mono", Menlo, monospace;
       font-size: 0.83rem;
       line-height: 2.1;
+      color: #e2e8f0;
     }
-    .t-green { color: #35c8f5; }
+    .t-green { color: #38bdf8; }
     .t-cyan { color: #22d3ee; }
     .t-yellow { color: #fbbf24; }
-    .t-muted { color: var(--muted); }
+    .t-muted { color: #94a3b8; }
     .cursor {
       display: inline-block;
       width: 9px; height: 17px;
@@ -438,8 +460,7 @@
       font-family: "Sora", sans-serif;
       font-weight: 700;
       font-size: 1.05rem;
-      color: #cbd5e1;
-      opacity: 0.85;
+      color: #94a3b8;
     }
 
     /* ===== Sections ===== */
@@ -459,6 +480,7 @@
       font-size: clamp(1.8rem, 3.5vw, 2.5rem);
       letter-spacing: -0.02em;
       margin-bottom: 14px;
+      color: var(--text);
     }
     .section-head p { color: var(--muted); }
 
@@ -474,11 +496,12 @@
       border-radius: var(--radius);
       padding: 32px 28px;
       transition: transform 0.25s ease, border-color 0.25s ease, box-shadow 0.25s ease;
+      box-shadow: var(--shadow-sm);
     }
     .service-card:hover {
       transform: translateY(-6px);
-      border-color: rgba(34, 183, 239, 0.4);
-      box-shadow: 0 20px 50px rgba(0, 0, 0, 0.35);
+      border-color: rgba(2, 96, 254, 0.25);
+      box-shadow: 0 16px 48px rgba(2, 96, 254, 0.1);
     }
     .service-icon {
       width: 52px;
@@ -486,15 +509,15 @@
       border-radius: 14px;
       display: grid;
       place-items: center;
-      background: rgba(34, 183, 239, 0.1);
+      background: var(--accent-light);
       color: var(--accent);
       margin-bottom: 22px;
     }
-    .service-card h3 { font-size: 1.12rem; margin-bottom: 10px; }
+    .service-card h3 { font-size: 1.12rem; margin-bottom: 10px; color: var(--text); }
     .service-card p { color: var(--muted); font-size: 0.93rem; }
 
     /* Why us */
-    .why { background: var(--surface); border-block: 1px solid var(--border); }
+    .why { background: var(--bg-alt); border-block: 1px solid var(--border); }
     .why-grid {
       display: grid;
       grid-template-columns: repeat(4, 1fr);
@@ -509,7 +532,7 @@
       margin-bottom: 14px;
       display: block;
     }
-    .why-item h3 { font-size: 1.05rem; margin-bottom: 8px; }
+    .why-item h3 { font-size: 1.05rem; margin-bottom: 8px; color: var(--text); }
     .why-item p { color: var(--muted); font-size: 0.9rem; }
 
     /* Portfolio */
@@ -528,7 +551,8 @@
       flex-direction: column;
       gap: 14px;
       overflow: hidden;
-      transition: transform 0.25s ease, border-color 0.25s ease;
+      transition: transform 0.25s ease, border-color 0.25s ease, box-shadow 0.25s ease;
+      box-shadow: var(--shadow-sm);
     }
     .work-card::before {
       content: "";
@@ -539,7 +563,7 @@
       opacity: 0;
       transition: opacity 0.25s ease;
     }
-    .work-card:hover { transform: translateY(-6px); border-color: rgba(34, 183, 239, 0.4); }
+    .work-card:hover { transform: translateY(-6px); border-color: rgba(2, 96, 254, 0.25); box-shadow: 0 16px 48px rgba(2, 96, 254, 0.1); }
     .work-card:hover::before { opacity: 1; }
     .work-tag {
       align-self: flex-start;
@@ -549,10 +573,10 @@
       letter-spacing: 0.1em;
       padding: 6px 12px;
       border-radius: 999px;
-      background: rgba(34, 183, 239, 0.1);
-      color: #7dd3fc;
+      background: var(--accent-light);
+      color: var(--accent);
     }
-    .work-card h3 { font-size: 1.35rem; }
+    .work-card h3 { font-size: 1.35rem; color: var(--text); }
     .work-card p { color: var(--muted); font-size: 0.94rem; flex-grow: 1; }
     .work-link {
       font-size: 0.9rem;
@@ -571,9 +595,10 @@
       border: 1px solid var(--border);
       border-radius: 14px;
       overflow: hidden;
-      transition: border-color 0.2s ease;
+      transition: border-color 0.2s ease, box-shadow 0.2s ease;
+      box-shadow: var(--shadow-sm);
     }
-    details.faq-item[open] { border-color: rgba(34, 183, 239, 0.45); }
+    details.faq-item[open] { border-color: rgba(2, 96, 254, 0.25); box-shadow: 0 4px 20px rgba(2, 96, 254, 0.06); }
     details.faq-item summary {
       cursor: pointer;
       list-style: none;
@@ -585,6 +610,7 @@
       font-weight: 600;
       font-family: "Sora", sans-serif;
       font-size: 0.98rem;
+      color: var(--text);
     }
     details.faq-item summary::-webkit-details-marker { display: none; }
     details.faq-item summary .chev {
@@ -593,7 +619,7 @@
       border-radius: 8px;
       display: grid;
       place-items: center;
-      background: rgba(34, 183, 239, 0.1);
+      background: var(--accent-light);
       color: var(--accent);
       transition: transform 0.25s ease;
     }
@@ -615,6 +641,7 @@
       font-size: clamp(1.8rem, 3.5vw, 2.4rem);
       margin-bottom: 16px;
       letter-spacing: -0.02em;
+      color: var(--text);
     }
     .contact-info > p { color: var(--muted); margin-bottom: 32px; max-width: 420px; }
     .contact-list { list-style: none; display: grid; gap: 14px; }
@@ -626,16 +653,17 @@
       background: var(--surface);
       border: 1px solid var(--border);
       border-radius: 14px;
-      transition: border-color 0.2s ease, transform 0.2s ease;
+      transition: border-color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
+      box-shadow: var(--shadow-sm);
     }
-    .contact-item:hover { border-color: rgba(34, 183, 239, 0.4); transform: translateX(4px); }
+    .contact-item:hover { border-color: rgba(2, 96, 254, 0.25); transform: translateX(4px); box-shadow: 0 4px 16px rgba(2, 96, 254, 0.08); }
     .contact-item .ci-icon {
       width: 42px;
       height: 42px;
       border-radius: 12px;
       display: grid;
       place-items: center;
-      background: rgba(34, 183, 239, 0.1);
+      background: var(--accent-light);
       color: var(--accent);
       flex-shrink: 0;
     }
@@ -646,7 +674,7 @@
       text-transform: uppercase;
       letter-spacing: 0.08em;
     }
-    .contact-item strong { font-size: 0.95rem; font-weight: 600; }
+    .contact-item strong { font-size: 0.95rem; font-weight: 600; color: var(--text); }
     .location-note {
       margin-top: 22px;
       font-size: 0.85rem;
@@ -664,6 +692,7 @@
       padding: 32px;
       display: grid;
       gap: 18px;
+      box-shadow: var(--shadow-md);
     }
     .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; }
     label { font-size: 0.82rem; font-weight: 600; color: var(--muted); display: block; margin-bottom: 7px; }
@@ -671,21 +700,25 @@
       width: 100%;
       padding: 13px 16px;
       border-radius: 10px;
-      border: 1px solid var(--border);
-      background: var(--bg);
+      border: 1.5px solid var(--border);
+      background: var(--bg-alt);
       color: var(--text);
       font-family: inherit;
       font-size: 0.92rem;
       outline: none;
-      transition: border-color 0.2s;
+      transition: border-color 0.2s, box-shadow 0.2s;
     }
-    input:focus, select:focus, textarea:focus { border-color: var(--accent); }
+    input:focus, select:focus, textarea:focus {
+      border-color: var(--accent);
+      box-shadow: 0 0 0 3px rgba(2, 96, 254, 0.1);
+    }
     textarea { resize: vertical; min-height: 110px; }
 
     /* Footer */
     footer {
       border-top: 1px solid var(--border);
       padding: 44px 0 36px;
+      background: var(--bg-alt);
     }
     .footer-inner {
       display: flex;
@@ -703,9 +736,10 @@
       display: grid;
       place-items: center;
       color: var(--muted);
-      transition: color 0.2s, border-color 0.2s, transform 0.2s;
+      background: var(--surface);
+      transition: color 0.2s, border-color 0.2s, transform 0.2s, box-shadow 0.2s;
     }
-    .socials a:hover { color: var(--accent); border-color: var(--accent); transform: translateY(-3px); }
+    .socials a:hover { color: var(--accent); border-color: var(--accent); transform: translateY(-3px); box-shadow: 0 4px 12px rgba(2, 96, 254, 0.12); }
 
     /* Reveal animation */
     .reveal {
@@ -734,10 +768,13 @@
         flex-direction: column;
         align-items: stretch;
         gap: 0;
-        background: rgba(5, 7, 15, 0.97);
+        background: rgba(255, 255, 255, 0.97);
+        backdrop-filter: blur(16px);
+        -webkit-backdrop-filter: blur(16px);
         border-bottom: 1px solid var(--border);
         padding: 10px 6%;
         display: none;
+        box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
       }
       .nav-links.open { display: flex; }
       .nav-links li { border-bottom: 1px solid var(--border); }
@@ -762,7 +799,7 @@
     <div class="container">
       <nav aria-label="Main navigation">
         <a class="logo" href="#top" aria-label="Cyberville — home">
-          <img class="logo-mark" src="/assets/logo-mark.png" alt="Cyberville logo" width="38" height="38" />
+          <img class="logo-mark" src="/assets/logo-mark.jpeg" alt="Cyberville logo" width="38" height="38" />
           Cyberville
         </a>
 
@@ -829,6 +866,7 @@
             <span>GurushNOW</span>
             <span>TheSeaPride</span>
             <span>Beeshop's Place</span>
+            <span>Racleground Intl Church</span>
           </div>
         </div>
       </div>
@@ -1141,7 +1179,7 @@
     <div class="container footer-inner">
       <div>
         <a class="logo" href="#top" style="margin-bottom:8px;" aria-label="Cyberville — back to top">
-          <img class="logo-mark" src="/assets/logo-mark.png" alt="" width="32" height="32" style="border-radius:8px;" />
+          <img class="logo-mark" src="/assets/logo-mark.jpeg" alt="" width="32" height="32" style="border-radius:8px;background:var(--surface-2);border:1px solid var(--border);width:32px;height:32px;" />
           Cyberville
         </a>
         <p>© <span id="year"></span> Cyberville · Software Development Company<br />Juba, South Sudan · cyberville.tech</p>
