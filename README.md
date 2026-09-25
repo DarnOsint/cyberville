@@ -14,7 +14,7 @@ Official landing page for **Cyberville**, a software development company based i
 
 ## Contact
 - Phone / WhatsApp: +211 92 273 4334
-- Email: cybervilletech@gmail.com
+- Email: enquires@cyberville.tech
 - Instagram / TikTok: @cybervillejuba
 
 ## Tech Stack
