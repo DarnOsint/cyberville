@@ -1,1222 +1,698 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <!-- Primary SEO -->
-  <title>Cyberville | Software Development Company in Juba, South Sudan</title>
-  <meta name="description" content="Cyberville is a technology company in Juba, South Sudan. We build pharmacy management systems, hospital software, POS systems for malls & shops, websites and mobile apps — and we sell computer hardware and install CCTV cameras." />
-  <meta name="keywords" content="software company in Juba, software development South Sudan, pharmacy management system South Sudan, hospital management system Juba, POS system for shops, mall software, accounting system South Sudan, web design Juba, website design South Sudan, mobile app development Juba, computer hardware Juba, laptops Juba, printers Juba, CCTV installation Juba, security cameras South Sudan, surveillance system Juba, IT company Juba, Cyberville" />
-  <meta name="author" content="Cyberville" />
-  <meta name="robots" content="index, follow, max-image-preview:large" />
-  <link rel="canonical" href="https://cyberville.tech/" />
+    <title>Cyberville — Software Company in Juba, South Sudan</title>
+    <meta
+      name="description"
+      content="Cyberville builds software that runs Africa's businesses — pharmacy management systems, hospital software, retail & restaurant POS, websites and mobile apps. Based in Juba, South Sudan, serving clients across Africa."
+    />
 
-  <!-- Google Search Console verification -->
-  <meta name="google-site-verification" content="LwEhIIcWgR5pzmxUCfl7R7Y6PlIWxOwMPH_Yz4PRgjk" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Cyberville — Software Company in Juba, South Sudan" />
+    <meta
+      property="og:description"
+      content="Pharmacy systems, hospital software, retail & restaurant POS, websites and mobile apps — built by a local team you can rely on."
+    />
+    <meta property="og:url" content="https://cyberville.tech/" />
+    <meta property="og:image" content="/assets/og-image.png" />
+    <meta property="og:locale" content="en_US" />
+    <meta name="twitter:card" content="summary_large_image" />
 
-  <!-- Local SEO: location signals -->
-  <meta name="geo.region" content="SS" />
-  <meta name="geo.placename" content="Juba, South Sudan" />
-  <meta name="ICBM" content="4.8594, 31.5713" />
+    <meta name="theme-color" content="#0260fe" />
+    <link rel="icon" href="/assets/favicon.ico" sizes="any" />
+    <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png" />
+    <link rel="manifest" href="/site.webmanifest" />
 
-  <!-- Favicon & icons -->
-  <link rel="icon" href="/assets/favicon.ico" type="image/x-icon" />
-  <link rel="icon" href="/assets/favicon.png?v=3" type="image/png" sizes="96x96" />
-  <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png" />
-  <link rel="manifest" href="/site.webmanifest" />
-  <meta name="theme-color" content="#0260fe" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
 
-  <!-- Open Graph -->
-  <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://cyberville.tech/" />
-  <meta property="og:title" content="Cyberville — Technology Company in Juba, South Sudan" />
-  <meta property="og:description" content="We build pharmacy systems, hospital software, POS systems for malls & restaurants, websites and mobile apps — and we sell computer hardware and install CCTV cameras. Trusted by Global Pharmacy, BMG Tours, Jambah, GurushNOW, TheSeaPride, Beeshop's Place, Miracle Ground International Church and Akheer." />
-  <meta property="og:image" content="https://cyberville.tech/assets/og-image.png" />
-  <meta property="og:image:width" content="1200" />
-  <meta property="og:image:height" content="630" />
-  <meta property="og:image:alt" content="Cyberville logo — software development company in Juba, South Sudan" />
-  <meta property="og:locale" content="en_US" />
-  <meta property="og:site_name" content="Cyberville" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="canonical" href="https://cyberville.tech/" />
+  </head>
 
-  <!-- Twitter -->
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:site" content="@cybervillejuba" />
-  <meta name="twitter:creator" content="@cybervillejuba" />
-  <meta name="twitter:title" content="Cyberville — Software Development Company in Juba, South Sudan" />
-  <meta name="twitter:description" content="Pharmacy systems, hospital software, POS for malls, websites, mobile apps, computer hardware and CCTV installation — in Juba, South Sudan." />
-  <meta name="twitter:image" content="https://cyberville.tech/assets/og-image.png" />
-
-  <!-- Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
-
-  <!-- Structured Data: Organization / Local Business -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "ProfessionalService",
-    "@id": "https://cyberville.tech/#organization",
-    "name": "Cyberville",
-    "alternateName": "Cyberville Tech Juba",
-    "description": "Technology company in Juba, South Sudan building pharmacy management systems, hospital management systems, POS software for malls, shops and restaurants, websites and mobile apps — plus computer hardware sales and CCTV camera installation.",
-    "url": "https://cyberville.tech/",
-    "logo": "https://cyberville.tech/assets/logo-mark.jpeg",
-    "image": "https://cyberville.tech/assets/og-image.png",
-    "telephone": "+211922734334",
-    "email": "enquires@cyberville.tech",
-    "slogan": "We build software that runs Africa's businesses.",
-    "address": {
-      "@type": "PostalAddress",
-      "addressLocality": "Juba",
-      "addressCountry": "SS"
-    },
-    "areaServed": [
-      { "@type": "City", "name": "Juba" },
-      { "@type": "Country", "name": "South Sudan" },
-      { "@type": "Place", "name": "East Africa" }
-    ],
-    "sameAs": [
-      "https://www.instagram.com/cybervillejuba",
-      "https://www.tiktok.com/@cybervillejuba",
-      "https://www.facebook.com/cybervillejuba",
-      "https://x.com/cybervillejuba"
-    ],
-    "hasOfferCatalog": {
-      "@type": "OfferCatalog",
-      "name": "Software Services",
-      "itemListElement": [
-        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Pharmacy Management System", "areaServed": "South Sudan" } },
-        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Hospital and Clinic Management Software", "areaServed": "South Sudan" } },
-        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "POS and Retail Software for Malls and Shops", "areaServed": "South Sudan" } },
-        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Restaurant POS and Management Software", "areaServed": "South Sudan" } },
-        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Website Design and Development", "areaServed": "South Sudan" } },
-        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Mobile App Development", "areaServed": "South Sudan" } },
-        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Custom Software and Accounting Systems", "areaServed": "South Sudan" } },
-        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Computer Hardware Sales", "areaServed": "South Sudan" } },
-        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "CCTV Camera Installation", "areaServed": "South Sudan" } }
-      ]
-    }
-  }
-  </script>
-
-  <!-- Structured Data: Website -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "WebSite",
-    "name": "Cyberville",
-    "alternateName": "Cyberville Tech",
-    "url": "https://cyberville.tech/"
-  }
-  </script>
-
-  <!-- Structured Data: FAQ -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": [
-      {
-        "@type": "Question",
-        "name": "Where is Cyberville located?",
-        "acceptedAnswer": { "@type": "Answer", "text": "Cyberville is a software development company based in Juba, South Sudan, working with clients across South Sudan and East Africa. Call or WhatsApp +211 92 273 4334 to reach us." }
-      },
-      {
-        "@type": "Question",
-        "name": "How much does a website or software cost in South Sudan?",
-        "acceptedAnswer": { "@type": "Answer", "text": "Every project is different. A simple business website costs far less than a full pharmacy or hospital management system. Send us a short description of your project and we will reply with a free quote, usually within 24 hours." }
-      },
-      {
-        "@type": "Question",
-        "name": "Do you build pharmacy management systems?",
-        "acceptedAnswer": { "@type": "Answer", "text": "Yes. We built the system that runs Global Pharmacy, including point of sale, inventory and expiry tracking, and daily sales reports. We can build the same kind of system for your pharmacy." }
-      },
-      {
-        "@type": "Question",
-        "name": "How long does it take to build a website or app?",
-        "acceptedAnswer": { "@type": "Answer", "text": "Most business websites are ready within 1 to 3 weeks. Larger systems like hospital or accounting software take longer because we design them around how your business actually works." }
-      },
-      {
-        "@type": "Question",
-        "name": "Do you provide support after launch?",
-        "acceptedAnswer": { "@type": "Answer", "text": "Yes. We stay with you after launch and remain available for updates, fixes and training whenever you need us." }
-      }
-    ]
-  }
-  </script>
-
-  <style>
-    :root {
-      --bg: #ffffff;
-      --bg-alt: #f6f8ff;
-      --surface: #ffffff;
-      --surface-2: #eef2ff;
-      --border: rgba(15, 23, 42, 0.09);
-      --text: #0f172a;
-      --muted: #5b6478;
-      --accent: #0260fe;
-      --accent-2: #00d4ff;
-      --accent-3: #7c3aed;
-      --accent-4: #ff2d92;
-      --accent-light: #e8f0ff;
-      --gradient: linear-gradient(120deg, #0260fe 0%, #00d4ff 50%, #7c3aed 100%);
-      --gradient-blue: linear-gradient(120deg, #0260fe, #00d4ff);
-      --radius: 18px;
-      --container: 1160px;
-      --header-h: 76px;
-      --shadow-sm: 0 2px 8px rgba(2, 96, 254, 0.06);
-      --shadow-md: 0 10px 34px rgba(2, 96, 254, 0.12);
-      --shadow-lg: 0 24px 70px rgba(2, 96, 254, 0.18);
-    }
-
-    * { margin: 0; padding: 0; box-sizing: border-box; }
-
-    html { scroll-behavior: smooth; scroll-padding-top: calc(var(--header-h) + 12px); }
-
-    body {
-      font-family: "Inter", system-ui, -apple-system, sans-serif;
-      background: var(--bg);
-      color: var(--text);
-      line-height: 1.6;
-      -webkit-font-smoothing: antialiased;
-      overflow-x: hidden;
-    }
-
-    h1, h2, h3 { font-family: "Space Grotesk", "Sora", sans-serif; line-height: 1.12; letter-spacing: -0.02em; }
-
-    a { color: inherit; text-decoration: none; }
-    img { max-width: 100%; display: block; }
-
-    .container { width: min(var(--container), 92%); margin-inline: auto; }
-
-    /* Accessibility */
-    .skip-link {
-      position: absolute; left: -9999px; top: 12px; z-index: 200;
-      background: var(--accent); color: #fff;
-      padding: 10px 20px; border-radius: 999px; font-weight: 600;
-    }
-    .skip-link:focus { left: 12px; }
-    :focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; border-radius: 4px; }
-
-    /* ===== Buttons ===== */
-    .btn {
-      display: inline-flex; align-items: center; gap: 9px;
-      padding: 15px 30px; border-radius: 999px;
-      font-weight: 600; font-size: 0.95rem;
-      transition: transform 0.25s ease, box-shadow 0.25s ease, background 0.25s ease, color 0.25s ease;
-      cursor: pointer; border: none; position: relative;
-    }
-    .btn-primary {
-      background: linear-gradient(120deg, #0260fe, #00c6ff);
-      color: #fff;
-      box-shadow: 0 10px 30px rgba(2, 96, 254, 0.35);
-    }
-    .btn-primary:hover { transform: translateY(-3px); box-shadow: 0 16px 42px rgba(2, 96, 254, 0.45); }
-    .btn-primary::after {
-      content: ""; position: absolute; inset: 0; border-radius: inherit;
-      background: linear-gradient(110deg, transparent 30%, rgba(255,255,255,0.35) 50%, transparent 70%);
-      background-size: 250% 100%; animation: shine 3.5s infinite; pointer-events: none;
-    }
-    @keyframes shine { 0% { background-position: 200% 0; } 60%, 100% { background-position: -150% 0; } }
-    .btn-ghost {
-      border: 1.5px solid var(--border); color: var(--text);
-      background: rgba(255, 255, 255, 0.85); backdrop-filter: blur(6px);
-    }
-    .btn-ghost:hover { border-color: var(--accent); color: var(--accent); background: var(--accent-light); transform: translateY(-3px); }
-    .btn-white {
-      background: #fff; color: var(--accent); box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
-    }
-    .btn-white:hover { transform: translateY(-3px); box-shadow: 0 16px 40px rgba(0, 0, 0, 0.35); }
-    .btn-outline {
-      background: transparent; color: var(--text); border: 1.5px solid var(--border);
-    }
-    .btn-outline:hover { border-color: var(--accent); color: var(--accent); transform: translateY(-3px); }
-
-    /* ===== Header ===== */
-    header {
-      position: fixed; inset: 0 0 auto 0; z-index: 100;
-      backdrop-filter: blur(18px) saturate(180%);
-      -webkit-backdrop-filter: blur(18px) saturate(180%);
-      background: rgba(255, 255, 255, 0.82);
-      border-bottom: 1px solid transparent;
-      transition: border-color 0.3s ease, box-shadow 0.3s ease;
-    }
-    header.scrolled { border-bottom-color: var(--border); box-shadow: 0 4px 24px rgba(15, 23, 42, 0.06); }
-
-    nav { display: flex; align-items: center; justify-content: space-between; height: var(--header-h); }
-
-    .logo { display: flex; align-items: center; gap: 11px; font-family: "Space Grotesk", sans-serif; font-weight: 700; font-size: 1.25rem; letter-spacing: -0.02em; color: var(--text); }
-    .logo-mark {
-      display: block; width: 38px; height: 38px; border-radius: 11px;
-      object-fit: contain; background: var(--surface-2); border: 1px solid var(--border);
-    }
-
-    .nav-links { display: flex; align-items: center; gap: 30px; list-style: none; }
-    .nav-links a { font-size: 0.92rem; color: var(--muted); font-weight: 500; transition: color 0.2s; position: relative; }
-    .nav-links a::after {
-      content: ""; position: absolute; left: 0; bottom: -6px; height: 2px; width: 0;
-      background: var(--gradient-blue); border-radius: 2px; transition: width 0.25s ease;
-    }
-    .nav-links a:hover { color: var(--accent); }
-    .nav-links a:hover::after { width: 100%; }
-    .nav-cta { display: flex; align-items: center; gap: 16px; }
-    .nav-cta .btn { padding: 11px 22px; font-size: 0.88rem; }
-    .nav-signin { font-size: 0.9rem; font-weight: 600; color: var(--text); transition: color 0.2s; }
-    .nav-signin:hover { color: var(--accent); }
-    .nav-signin::before { content: ""; display: inline-block; width: 8px; height: 8px; border-radius: 50%; background: var(--gradient); margin-right: 7px; vertical-align: 1px; opacity: 0.85; }
-
-    .hamburger { display: none; flex-direction: column; gap: 5px; background: none; border: none; cursor: pointer; padding: 6px; }
-    .hamburger span { width: 24px; height: 2px; background: var(--text); border-radius: 2px; transition: transform 0.25s ease, opacity 0.25s ease; }
-
-    /* ===== Hero ===== */
-    .hero {
-      position: relative;
-      padding: calc(var(--header-h) + 90px) 0 110px;
-      overflow: hidden;
-      color: #fff;
-      background:
-        radial-gradient(1100px 600px at 80% -10%, rgba(0, 212, 255, 0.4), transparent 60%),
-        radial-gradient(900px 560px at 5% 15%, rgba(124, 58, 237, 0.5), transparent 55%),
-        radial-gradient(700px 500px at 60% 110%, rgba(255, 45, 146, 0.28), transparent 55%),
-        linear-gradient(160deg, #071a46 0%, #0b2882 25%, #150a3d 65%, #0a1440 100%);
-      background-color: #071a46;
-    }
-    .hero::after {
-      content: ""; position: absolute; inset: 0;
-      background-image:
-        linear-gradient(rgba(255,255,255,0.05) 1px, transparent 1px),
-        linear-gradient(90deg, rgba(255,255,255,0.05) 1px, transparent 1px);
-      background-size: 60px 60px;
-      mask-image: radial-gradient(ellipse 90% 70% at 50% 20%, black 30%, transparent 100%);
-      pointer-events: none;
-    }
-    .blob {
-      position: absolute; border-radius: 50%; filter: blur(70px); opacity: 0.55;
-      animation: float 12s ease-in-out infinite; pointer-events: none; z-index: 0;
-    }
-    .blob-1 { width: 420px; height: 420px; background: #0260fe; top: -80px; right: 8%; }
-    .blob-2 { width: 340px; height: 340px; background: #7c3aed; bottom: 10%; left: -60px; animation-delay: -4s; }
-    .blob-3 { width: 260px; height: 260px; background: #00d4ff; bottom: 20%; right: 20%; animation-delay: -8s; opacity: 0.35; }
-    @keyframes float {
-      0%, 100% { transform: translate(0, 0) scale(1); }
-      33% { transform: translate(30px, -40px) scale(1.08); }
-      66% { transform: translate(-25px, 25px) scale(0.95); }
-    }
-
-    .hero-grid {
-      position: relative; z-index: 1;
-      display: grid; grid-template-columns: 1.1fr 0.9fr; gap: 64px; align-items: center;
-    }
-
-    .badge {
-      display: inline-flex; align-items: center; gap: 9px;
-      padding: 9px 18px; border-radius: 999px;
-      border: 1px solid rgba(255, 255, 255, 0.18);
-      background: rgba(255, 255, 255, 0.08);
-      backdrop-filter: blur(8px);
-      color: #d9e6ff; font-size: 0.82rem; font-weight: 500; margin-bottom: 26px;
-    }
-    .badge .dot {
-      width: 8px; height: 8px; border-radius: 50%;
-      background: #00ffc8; box-shadow: 0 0 0 4px rgba(0, 255, 200, 0.18);
-      animation: pulse 2s infinite;
-    }
-    @keyframes pulse { 0%, 100% { box-shadow: 0 0 0 4px rgba(0,255,200,0.18); } 50% { box-shadow: 0 0 0 8px rgba(0,255,200,0.04); } }
-
-    .hero h1 { font-size: clamp(2.6rem, 5.5vw, 4rem); margin-bottom: 22px; }
-    .grad-text {
-      background: linear-gradient(120deg, #00d4ff, #7c3aed 60%, #ff2d92);
-      -webkit-background-clip: text; background-clip: text; color: transparent;
-      background-size: 200% 200%; animation: gradientShift 6s ease infinite;
-    }
-    @keyframes gradientShift {
-      0%, 100% { background-position: 0% 50%; }
-      50% { background-position: 100% 50%; }
-    }
-    .hero p.lead { color: #b6c4e0; font-size: 1.1rem; max-width: 540px; margin-bottom: 36px; }
-    .hero-actions { display: flex; gap: 16px; flex-wrap: wrap; }
-
-    /* Hero terminal */
-    .terminal {
-      background: rgba(10, 22, 70, 0.6);
-      border: 1px solid rgba(255, 255, 255, 0.14);
-      border-radius: 20px; overflow: hidden;
-      backdrop-filter: blur(14px);
-      box-shadow: 0 40px 90px rgba(0, 0, 0, 0.5);
-      transform: perspective(1000px) rotateY(-6deg);
-      transition: transform 0.4s ease;
-    }
-    .terminal:hover { transform: perspective(1000px) rotateY(0deg); }
-    .terminal-bar { display: flex; align-items: center; gap: 7px; padding: 15px 19px; border-bottom: 1px solid rgba(255,255,255,0.08); background: rgba(255,255,255,0.04); }
-    .terminal-bar i { width: 11px; height: 11px; border-radius: 50%; display: block; }
-    .terminal-bar i:nth-child(1) { background: #ff5f57; }
-    .terminal-bar i:nth-child(2) { background: #febc2e; }
-    .terminal-bar i:nth-child(3) { background: #28c840; }
-    .terminal-bar span { margin-left: auto; font-size: 0.72rem; color: #8fa3c8; }
-    .terminal-body { padding: 24px; font-family: ui-monospace, "SF Mono", Menlo, monospace; font-size: 0.84rem; line-height: 2.15; color: #dce6f7; }
-    .t-green { color: #38f0c8; }
-    .t-cyan { color: #00d4ff; }
-    .t-yellow { color: #febc2e; }
-    .t-muted { color: #8fa3c8; }
-    .cursor { display: inline-block; width: 9px; height: 17px; background: #00d4ff; vertical-align: middle; animation: blink 1s steps(1) infinite; }
-    @keyframes blink { 50% { opacity: 0; } }
-
-    /* Trusted marquee */
-    .trusted { position: relative; z-index: 1; margin-top: 84px; text-align: center; }
-    .trusted p { font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.2em; color: #93a7cc; margin-bottom: 22px; }
-    .marquee { overflow: hidden; -webkit-mask-image: linear-gradient(90deg, transparent, black 15%, black 85%, transparent); mask-image: linear-gradient(90deg, transparent, black 15%, black 85%, transparent); }
-    .marquee-track { display: flex; gap: 56px; width: max-content; animation: marquee 26s linear infinite; }
-    .marquee:hover .marquee-track { animation-play-state: paused; }
-    .marquee-track span {
-      font-family: "Space Grotesk", sans-serif; font-weight: 600; font-size: 1.15rem;
-      color: #cdd9f2; white-space: nowrap; display: inline-flex; align-items: center; gap: 11px;
-    }
-    .marquee-track span::before { content: ""; width: 8px; height: 8px; border-radius: 50%; background: var(--gradient-blue); box-shadow: 0 0 12px rgba(0, 212, 255, 0.7); }
-    @keyframes marquee { from { transform: translateX(0); } to { transform: translateX(-50%); } }
-
-    /* ===== Sections ===== */
-    section { padding: 104px 0; position: relative; }
-    .section-head { text-align: center; max-width: 700px; margin: 0 auto 62px; }
-    .section-head .kicker {
-      display: inline-flex; align-items: center; gap: 8px;
-      font-size: 0.78rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.18em;
-      color: var(--accent); margin-bottom: 16px;
-      padding: 7px 16px; border-radius: 999px;
-      background: var(--accent-light); border: 1px solid rgba(2, 96, 254, 0.12);
-    }
-    .section-head h2 { font-size: clamp(2rem, 3.8vw, 2.7rem); margin-bottom: 16px; }
-    .section-head p { color: var(--muted); font-size: 1.02rem; }
-
-    /* ===== Stats band ===== */
-    .stats-band {
-      position: relative; z-index: 2;
-      margin-top: -54px;
-      background: linear-gradient(120deg, #0260fe, #00c6ff);
-      border-radius: 24px;
-      padding: 46px 40px;
-      display: grid; grid-template-columns: repeat(4, 1fr); gap: 30px;
-      box-shadow: 0 30px 70px rgba(2, 96, 254, 0.35);
-      color: #fff;
-      overflow: hidden;
-    }
-    .stats-band::before {
-      content: ""; position: absolute; inset: 0;
-      background: radial-gradient(400px 200px at 90% 0%, rgba(255,255,255,0.25), transparent 60%);
-      pointer-events: none;
-    }
-    .stat { position: relative; text-align: center; }
-    .stat .num { font-family: "Space Grotesk", sans-serif; font-weight: 700; font-size: clamp(2rem, 4vw, 2.8rem); line-height: 1; display: block; }
-    .stat .lbl { margin-top: 8px; font-size: 0.85rem; opacity: 0.9; }
-    .stat + .stat { border-left: 1px solid rgba(255, 255, 255, 0.22); }
-
-    /* ===== Services ===== */
-    .services-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 26px; }
-    .service-card {
-      position: relative;
-      background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius);
-      padding: 34px 30px; overflow: hidden;
-      transition: transform 0.3s ease, box-shadow 0.3s ease;
-    }
-    .service-card::before {
-      content: ""; position: absolute; inset: 0; opacity: 0;
-      background: linear-gradient(140deg, rgba(2, 96, 254, 0.05), rgba(0, 212, 255, 0.04), rgba(124, 58, 237, 0.05));
-      transition: opacity 0.3s ease; pointer-events: none;
-    }
-    .service-card::after {
-      content: ""; position: absolute; top: 0; left: 0; right: 0; height: 3px;
-      background: var(--gradient-blue); transform: scaleX(0); transform-origin: left;
-      transition: transform 0.35s ease;
-    }
-    .service-card:hover { transform: translateY(-8px); box-shadow: 0 22px 60px rgba(2, 96, 254, 0.14); }
-    .service-card:hover::before { opacity: 1; }
-    .service-card:hover::after { transform: scaleX(1); }
-    .service-icon {
-      position: relative;
-      width: 56px; height: 56px; border-radius: 16px;
-      display: grid; place-items: center; margin-bottom: 24px;
-      background: var(--accent-light); color: var(--accent);
-      transition: transform 0.3s ease;
-    }
-    .service-card:nth-child(3n+2) .service-icon { background: #e6fffe; color: #06b6d4; }
-    .service-card:nth-child(3n+3) .service-icon { background: #f3e8ff; color: #7c3aed; }
-    .service-card:hover .service-icon { transform: scale(1.1) rotate(-6deg); }
-    .service-card h3 { font-size: 1.18rem; margin-bottom: 12px; }
-    .service-card p { color: var(--muted); font-size: 0.94rem; }
-
-    /* ===== Why us ===== */
-    .why { background: var(--bg-alt); border-block: 1px solid var(--border); overflow: hidden; }
-    .why::before {
-      content: ""; position: absolute; top: 0; left: 50%;
-      width: 800px; height: 400px; transform: translateX(-50%);
-      background: radial-gradient(closest-side, rgba(2, 96, 254, 0.07), transparent);
-      pointer-events: none;
-    }
-    .why-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 26px; position: relative; }
-    .why-item { text-align: left; padding: 30px 26px; background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); transition: transform 0.3s ease, box-shadow 0.3s ease; }
-    .why-item:hover { transform: translateY(-6px); box-shadow: var(--shadow-md); }
-    .why-item .num {
-      font-family: "Space Grotesk", sans-serif; font-size: 2.4rem; font-weight: 700;
-      background: var(--gradient-blue); -webkit-background-clip: text; background-clip: text; color: transparent;
-      margin-bottom: 14px; display: block; line-height: 1;
-    }
-    .why-item h3 { font-size: 1.08rem; margin-bottom: 10px; }
-    .why-item p { color: var(--muted); font-size: 0.92rem; }
-
-    /* ===== Work ===== */
-    .work-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 26px; }
-    .work-card {
-      position: relative;
-      background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius);
-      padding: 36px 32px; display: flex; flex-direction: column; gap: 15px; overflow: hidden;
-      transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
-    }
-    .work-card::before {
-      content: ""; position: absolute; inset: -1px; border-radius: inherit; padding: 1px;
-      background: var(--gradient); -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
-      -webkit-mask-composite: xor; mask-composite: exclude;
-      opacity: 0; transition: opacity 0.35s ease;
-    }
-    .work-card:hover { transform: translateY(-8px); box-shadow: var(--shadow-md); }
-    .work-card:hover::before { opacity: 1; }
-    .work-tag {
-      align-self: flex-start;
-      font-size: 0.72rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.1em;
-      padding: 6px 13px; border-radius: 999px;
-      background: var(--accent-light); color: var(--accent);
-    }
-    .work-card:nth-child(even) .work-tag { background: #f3e8ff; color: #7c3aed; }
-    .work-card h3 { font-size: 1.4rem; }
-    .work-card p { color: var(--muted); font-size: 0.95rem; flex-grow: 1; }
-    .work-link { font-size: 0.9rem; font-weight: 600; color: var(--accent); display: inline-flex; align-items: center; gap: 6px; transition: gap 0.2s ease; }
-    .work-link:hover { gap: 10px; text-decoration: underline; }
-
-    /* ===== FAQ ===== */
-    .faq-wrap { background: var(--bg-alt); border-block: 1px solid var(--border); }
-    .faq-list { max-width: 780px; margin: 0 auto; display: grid; gap: 16px; }
-    details.faq-item {
-      background: var(--surface); border: 1px solid var(--border); border-radius: 16px; overflow: hidden;
-      transition: border-color 0.25s ease, box-shadow 0.25s ease;
-    }
-    details.faq-item[open] { border-color: rgba(2, 96, 254, 0.3); box-shadow: var(--shadow-md); }
-    details.faq-item summary {
-      cursor: pointer; list-style: none;
-      display: flex; align-items: center; justify-content: space-between; gap: 16px;
-      padding: 22px 26px; font-weight: 600; font-family: "Space Grotesk", sans-serif; font-size: 1rem;
-    }
-    details.faq-item summary::-webkit-details-marker { display: none; }
-    details.faq-item summary .chev {
-      flex-shrink: 0; width: 28px; height: 28px; border-radius: 9px;
-      display: grid; place-items: center;
-      background: var(--gradient-blue); color: #fff;
-      transition: transform 0.3s ease;
-    }
-    details.faq-item[open] summary .chev { transform: rotate(180deg); }
-    details.faq-item .faq-a { padding: 0 26px 24px; color: var(--muted); font-size: 0.95rem; }
-
-    /* ===== CTA banner ===== */
-    .cta-banner {
-      position: relative; overflow: hidden;
-      border-radius: 28px; padding: 80px 48px; text-align: center; color: #fff;
-      background: linear-gradient(120deg, #0260fe, #7c3aed 55%, #ff2d92);
-      background-size: 200% 200%; animation: gradientShift 8s ease infinite;
-      box-shadow: 0 30px 80px rgba(124, 58, 237, 0.35);
-    }
-    .cta-banner::before {
-      content: ""; position: absolute; inset: 0;
-      background: radial-gradient(500px 300px at 20% 10%, rgba(255,255,255,0.25), transparent 60%),
-                  radial-gradient(400px 260px at 85% 90%, rgba(0, 0, 0, 0.2), transparent 60%);
-      pointer-events: none;
-    }
-    .cta-banner h2 { font-size: clamp(1.9rem, 4vw, 2.8rem); margin-bottom: 16px; position: relative; }
-    .cta-banner p { font-size: 1.05rem; opacity: 0.92; max-width: 560px; margin: 0 auto 34px; position: relative; }
-    .cta-actions { display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; position: relative; }
-
-    /* ===== Contact ===== */
-    .contact-wrap { display: grid; grid-template-columns: 1fr 1fr; gap: 64px; align-items: start; }
-    .contact-info h2 { font-size: clamp(2rem, 3.5vw, 2.6rem); margin-bottom: 18px; }
-    .contact-info > p { color: var(--muted); margin-bottom: 34px; max-width: 420px; }
-    .contact-list { list-style: none; display: grid; gap: 16px; }
-    .contact-item {
-      display: flex; align-items: center; gap: 17px;
-      padding: 17px 19px; background: var(--surface);
-      border: 1px solid var(--border); border-radius: 15px;
-      transition: transform 0.25s ease, border-color 0.25s ease, box-shadow 0.25s ease;
-    }
-    .contact-item:hover { transform: translateX(6px); border-color: rgba(2, 96, 254, 0.3); box-shadow: var(--shadow-sm); }
-    .contact-item .ci-icon {
-      width: 44px; height: 44px; border-radius: 13px;
-      display: grid; place-items: center;
-      background: var(--gradient-blue); color: #fff; box-shadow: 0 6px 18px rgba(2, 96, 254, 0.3); flex-shrink: 0;
-    }
-    .contact-item:nth-child(even) .ci-icon { background: linear-gradient(120deg, #7c3aed, #ff2d92); box-shadow: 0 6px 18px rgba(124, 58, 237, 0.3); }
-    .contact-item small { display: block; color: var(--muted); font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.08em; }
-    .contact-item strong { font-size: 0.96rem; font-weight: 600; color: var(--text); }
-    .location-note { margin-top: 24px; font-size: 0.86rem; color: var(--muted); display: flex; align-items: center; gap: 9px; }
-    .location-note svg { color: var(--accent); flex-shrink: 0; }
-
-    form.quote-form {
-      background: var(--surface); border: 1px solid var(--border); border-radius: 22px;
-      padding: 36px; display: grid; gap: 18px; box-shadow: var(--shadow-md);
-    }
-    .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; }
-    label { font-size: 0.82rem; font-weight: 600; color: var(--muted); display: block; margin-bottom: 8px; }
-    input, select, textarea {
-      width: 100%; padding: 14px 17px; border-radius: 12px;
-      border: 1.5px solid var(--border); background: var(--bg-alt); color: var(--text);
-      font-family: inherit; font-size: 0.92rem; outline: none;
-      transition: border-color 0.2s, box-shadow 0.2s;
-    }
-    input:focus, select:focus, textarea:focus {
-      border-color: var(--accent); box-shadow: 0 0 0 4px rgba(2, 96, 254, 0.12);
-    }
-    textarea { resize: vertical; min-height: 110px; }
-
-    /* ===== Footer ===== */
-    footer { background: #071a46; padding: 56px 0 40px; color: #b6c4e0; position: relative; overflow: hidden; }
-    footer::before {
-      content: ""; position: absolute; top: 0; left: 0; right: 0; height: 3px;
-      background: var(--gradient);
-    }
-    .footer-inner { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 24px; }
-    .footer-inner .logo { color: #fff; }
-    footer p { font-size: 0.87rem; }
-    .socials { display: flex; gap: 12px; }
-    .socials a {
-      width: 42px; height: 42px; border-radius: 13px;
-      border: 1px solid rgba(255, 255, 255, 0.15); display: grid; place-items: center;
-      color: #b6c4e0; background: rgba(255, 255, 255, 0.05);
-      transition: color 0.25s, transform 0.25s, box-shadow 0.25s, border-color 0.25s;
-    }
-    .socials a:hover { color: #fff; transform: translateY(-4px); border-color: rgba(0, 212, 255, 0.6); box-shadow: 0 8px 24px rgba(0, 212, 255, 0.25); }
-
-    /* Reveal */
-    .reveal { opacity: 0; transform: translateY(30px); transition: opacity 0.8s cubic-bezier(0.2, 0.7, 0.2, 1), transform 0.8s cubic-bezier(0.2, 0.7, 0.2, 1); }
-    .reveal.visible { opacity: 1; transform: none; }
-    .reveal-delay-1 { transition-delay: 0.08s; }
-    .reveal-delay-2 { transition-delay: 0.16s; }
-    .reveal-delay-3 { transition-delay: 0.24s; }
-    @media (prefers-reduced-motion: reduce) {
-      html { scroll-behavior: auto; }
-      .reveal { opacity: 1; transform: none; transition: none; }
-      .marquee-track { animation: none; }
-      .blob, .badge .dot { animation: none; }
-      .grad-text, .cta-banner { animation: none; }
-      .btn-primary::after { animation: none; }
-    }
-
-    /* ===== Responsive ===== */
-    @media (max-width: 960px) {
-      .hero-grid { grid-template-columns: 1fr; gap: 48px; }
-      .services-grid { grid-template-columns: repeat(2, 1fr); }
-      .why-grid { grid-template-columns: repeat(2, 1fr); }
-      .stats-band { grid-template-columns: repeat(2, 1fr); gap: 30px 20px; }
-      .stats-band .stat:nth-child(3) { border-left: none; }
-      .contact-wrap { grid-template-columns: 1fr; gap: 48px; }
-    }
-    @media (max-width: 720px) {
-      .nav-links {
-        position: fixed; top: var(--header-h); left: 0; right: 0;
-        flex-direction: column; align-items: stretch; gap: 0;
-        background: rgba(255, 255, 255, 0.97); backdrop-filter: blur(18px); -webkit-backdrop-filter: blur(18px);
-        border-bottom: 1px solid var(--border); padding: 10px 6%; display: none;
-        box-shadow: 0 16px 40px rgba(0, 0, 0, 0.1);
-      }
-      .nav-links.open { display: flex; }
-      .nav-links li { border-bottom: 1px solid var(--border); }
-      .nav-links li:last-child { border-bottom: none; }
-      .nav-links a { display: block; padding: 16px 4px; font-size: 1rem; }
-      .nav-links a::after { display: none; }
-      .nav-cta .btn span.hide-mobile { display: none; }
-      .nav-signin { font-size: 0.85rem; }
-      .hamburger { display: flex; }
-      section { padding: 76px 0; }
-      .hero { padding-top: calc(var(--header-h) + 56px); }
-      .services-grid, .work-grid, .why-grid { grid-template-columns: 1fr; }
-      .stats-band { margin-top: -30px; }
-      .form-row { grid-template-columns: 1fr; }
-      .cta-banner { padding: 56px 26px; }
-      .footer-inner { flex-direction: column; text-align: center; }
-    }
-  </style>
-</head>
-<body id="top">
-
-  <a class="skip-link" href="#main">Skip to main content</a>
-
-  <!-- ===== Header ===== -->
-  <header id="site-header">
-    <div class="container">
-      <nav aria-label="Main navigation">
-        <a class="logo" href="#top" aria-label="Cyberville — home">
-          <img class="logo-mark" src="/assets/logo-mark.jpeg" alt="Cyberville logo" width="38" height="38" />
-          Cyberville
-        </a>
-
-        <ul class="nav-links" id="nav-links">
-          <li><a href="#services">Services</a></li>
-          <li><a href="#work">Our Work</a></li>
-          <li><a href="#why">Why Us</a></li>
-          <li><a href="#faq">FAQ</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-
-        <div class="nav-cta">
-          <a class="nav-signin" href="https://app.cyberville.tech" target="_blank" rel="noopener">Sign in</a>
-          <a class="btn btn-primary" href="https://wa.me/211922734334?text=Hi%20Cyberville%2C%20I%20will%20like%20to%20build%20this%20software%20or%20website%20that%20does%20........%2C%20what%20would%20I%20need%3F" target="_blank" rel="noopener"><span class="hide-mobile">Request a </span>Project</a>
-          <button class="hamburger" id="hamburger" aria-label="Toggle navigation menu" aria-controls="nav-links" aria-expanded="false">
-            <span></span><span></span><span></span>
-          </button>
-        </div>
-      </nav>
-    </div>
-  </header>
-
-  <main id="main">
-
-    <!-- ===== Hero ===== -->
-    <section class="hero" aria-labelledby="hero-title">
-      <div class="blob blob-1"></div>
-      <div class="blob blob-2"></div>
-      <div class="blob blob-3"></div>
+  <body id="top">
+    <!-- ================= Header ================= -->
+    <header class="header" id="site-header">
       <div class="container">
-        <div class="hero-grid">
-          <div>
-            <p class="badge reveal"><span class="dot"></span> Software Development Company in Juba, South Sudan</p>
-            <h1 id="hero-title" class="reveal">We build software that runs <span class="grad-text">Africa's businesses.</span></h1>
-            <p class="lead reveal reveal-delay-1">
-              Based in Juba, South Sudan, Cyberville designs and builds pharmacy management
-              systems, hospital software, point-of-sale systems for malls, shops and restaurants,
-              websites and mobile apps — reliable digital solutions trusted by businesses
-              across South Sudan and East Africa.
-            </p>
-            <div class="hero-actions reveal reveal-delay-2">
-              <a class="btn btn-primary" href="https://wa.me/211922734334?text=Hi%20Cyberville%2C%20I%20will%20like%20to%20build%20this%20software%20or%20website%20that%20does%20........%2C%20what%20would%20I%20need%3F" target="_blank" rel="noopener">Request a Project →</a>
-              <a class="btn btn-white" href="#work">See Our Work</a>
-              <a class="btn btn-outline" href="https://app.cyberville.tech" target="_blank" rel="noopener">Open the App ↗</a>
-            </div>
-          </div>
+        <nav class="nav" aria-label="Main navigation">
+          <a class="logo" href="#top" aria-label="Cyberville — home">
+            <img class="logo-mark" src="/assets/logo-mark.jpeg" alt="Cyberville logo" width="34" height="34" />
+            Cyberville
+          </a>
 
-          <div class="terminal reveal reveal-delay-2" aria-hidden="true">
-            <div class="terminal-bar">
-              <i></i><i></i><i></i>
-              <span>cyberville — bash</span>
-            </div>
-            <div class="terminal-body">
-              <div><span class="t-green">$</span> cyberville init --client "your-business"</div>
-              <div><span class="t-cyan">✓</span> <span class="t-muted">Understanding your workflow...</span></div>
-              <div><span class="t-cyan">✓</span> <span class="t-muted">Designing the solution...</span></div>
-              <div><span class="t-yellow">→</span> building: pharmacy / hospital / retail / web / mobile</div>
-              <div><span class="t-green">$</span> cyberville deploy --live <span class="cursor"></span></div>
-            </div>
-          </div>
-        </div>
-
-        <div class="trusted reveal">
-          <p>Trusted by teams like</p>
-          <div class="marquee">
-            <div class="marquee-track">
-              <span>Global Pharmacy</span>
-              <span>BMG Tours</span>
-              <span>Jambah</span>
-              <span>GurushNOW</span>
-              <span>TheSeaPride</span>
-              <span>Beeshop's Place</span>
-              <span>Miracle Ground Intl Church</span>
-              <span>Akheer</span>
-              <span>Global Pharmacy</span>
-              <span>BMG Tours</span>
-              <span>Jambah</span>
-              <span>GurushNOW</span>
-              <span>TheSeaPride</span>
-              <span>Beeshop's Place</span>
-              <span>Miracle Ground Intl Church</span>
-              <span>Akheer</span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- ===== Stats band ===== -->
-    <div class="container">
-      <div class="stats-band reveal" aria-label="Cyberville in numbers">
-        <div class="stat">
-          <span class="num" data-count="30" data-suffix="+">0+</span>
-          <span class="lbl">Projects Delivered</span>
-        </div>
-        <div class="stat">
-          <span class="num" data-count="9" data-suffix="+">0+</span>
-          <span class="lbl">Industries Served</span>
-        </div>
-        <div class="stat">
-          <span class="num" data-count="24" data-suffix="h">0h</span>
-          <span class="lbl">Quote Response Time</span>
-        </div>
-        <div class="stat">
-          <span class="num" data-count="100" data-suffix="%">0%</span>
-          <span class="lbl">Client Support Commitment</span>
-        </div>
-      </div>
-    </div>
-
-    <!-- ===== Services ===== -->
-    <section id="services" aria-labelledby="services-title">
-      <div class="container">
-        <div class="section-head reveal">
-          <span class="kicker">What We Do</span>
-          <h2 id="services-title">Software solutions for every kind of business</h2>
-          <p>We turn everyday operations — sales, stock, patients, bookings and accounts — into simple, reliable software your team can actually use. Need hardware or security too? We supply computers and accessories, and install professional CCTV systems.</p>
-        </div>
-
-        <div class="services-grid">
-          <article class="service-card reveal">
-            <div class="service-icon" aria-hidden="true">
-              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M10.5 20.5 3.5 13.5a4.95 4.95 0 1 1 7-7l.5.5.5-.5a4.95 4.95 0 0 1 4-1.46"/><path d="m17 21 3-3-3-3"/><path d="m21 21-3-3"/></svg>
-            </div>
-            <h3>Pharmacy Management Systems</h3>
-            <p>Point of sale, inventory tracking, expiry alerts and daily sales reports — the same platform powering Global Pharmacy here in Juba.</p>
-          </article>
-
-          <article class="service-card reveal">
-            <div class="service-icon" aria-hidden="true">
-              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.29 1.51 4.04 3 5.5l7 7Z"/><path d="M3.22 12H9.5l.5-1 2 4.5 2-7 1.5 3.5h5.27"/></svg>
-            </div>
-            <h3>Hospital &amp; Clinic Software</h3>
-            <p>Patient records, appointments, billing and reporting tools that help hospitals and clinics work faster and safer.</p>
-          </article>
-
-          <article class="service-card reveal">
-            <div class="service-icon" aria-hidden="true">
-              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="m2 7 4.41-4.41A2 2 0 0 1 7.83 2h8.34a2 2 0 0 1 1.42.59L22 7"/><path d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8"/><path d="M15 22v-4a2 2 0 0 0-2-2h-2a2 2 0 0 0-2 2v4"/><path d="M2 7h20"/><path d="M22 7v3a2 2 0 0 1-2 2a2.7 2.7 0 0 1-1.59-.63.7.7 0 0 0-.82 0A2.7 2.7 0 0 1 16 12a2.7 2.7 0 0 1-1.59-.63.7.7 0 0 0-.82 0A2.7 2.7 0 0 1 12 12a2.7 2.7 0 0 1-1.59-.63.7.7 0 0 0-.82 0A2.7 2.7 0 0 1 8 12a2.7 2.7 0 0 1-1.59-.63.7.7 0 0 0-.82 0A2.7 2.7 0 0 1 4 12a2 2 0 0 1-2-2V7"/></svg>
-            </div>
-            <h3>Retail &amp; Restaurant POS Systems</h3>
-            <p>Sales terminals, stock control and staff management built for shops, supermarkets and shopping centres — the same software running TheSeaPride and Beeshop's Place restaurants.</p>
-          </article>
-
-          <article class="service-card reveal">
-            <div class="service-icon" aria-hidden="true">
-              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/><path d="M2 12h20"/></svg>
-            </div>
-            <h3>Web Design &amp; Development</h3>
-            <p>Fast, modern websites that make your brand look world-class — like theseapride.com, beeshopsplace.com and raclegroundinternationalchurch.com.</p>
-          </article>
-
-          <article class="service-card reveal">
-            <div class="service-icon" aria-hidden="true">
-              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect width="14" height="20" x="5" y="2" rx="2" ry="2"/><path d="M12 18h.01"/></svg>
-            </div>
-            <h3>Mobile App Development</h3>
-            <p>Android and iOS apps built from idea to app store. We are the developers behind Jambah.app.</p>
-          </article>
-
-          <article class="service-card reveal">
-            <div class="service-icon" aria-hidden="true">
-              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
-            </div>
-            <h3>Custom Software &amp; Accounting Systems</h3>
-            <p>Have a unique process? We build tailor-made systems — including accounting and business management tools — and support them long after launch.</p>
-          </article>
-
-          <article class="service-card reveal">
-            <div class="service-icon" aria-hidden="true">
-              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect width="16" height="16" x="4" y="4" rx="2"/><rect width="6" height="6" x="9" y="9"/><path d="M15 2v2"/><path d="M15 20v2"/><path d="M2 15h2"/><path d="M2 9h2"/><path d="M20 15h2"/><path d="M20 9h2"/><path d="M9 2v2"/><path d="M9 20v2"/></svg>
-            </div>
-            <h3>Computer Hardware &amp; Accessories</h3>
-            <p>Laptops, desktops, printers, monitors, networking gear and genuine accessories — sourced, supplied and set up for your office or home.</p>
-          </article>
-
-          <article class="service-card reveal">
-            <div class="service-icon" aria-hidden="true">
-              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="m22 8-6 4 6 4V8Z"/><rect width="14" height="12" x="2" y="6" rx="2" ry="2"/></svg>
-            </div>
-            <h3>CCTV Camera Installation</h3>
-            <p>Professional CCTV and surveillance system installation — cameras, recorders, wiring and remote viewing so you can monitor your premises from anywhere.</p>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <!-- ===== Why Us ===== -->
-    <section id="why" class="why" aria-labelledby="why-title">
-      <div class="container">
-        <div class="section-head reveal">
-          <span class="kicker">Why Cyberville</span>
-          <h2 id="why-title">Built locally. Built to last.</h2>
-          <p>We understand how businesses run in South Sudan — because we live and work here too.</p>
-        </div>
-
-        <div class="why-grid">
-          <div class="why-item reveal">
-            <span class="num">01</span>
-            <h3>Local understanding</h3>
-            <p>Software shaped around how businesses actually operate in Juba, across South Sudan and East Africa.</p>
-          </div>
-          <div class="why-item reveal reveal-delay-1">
-            <span class="num">02</span>
-            <h3>End-to-end delivery</h3>
-            <p>From first sketch to launch day — design, development, deployment and training, all under one roof.</p>
-          </div>
-          <div class="why-item reveal reveal-delay-2">
-            <span class="num">03</span>
-            <h3>Fair, honest pricing</h3>
-            <p>World-class quality at prices that make sense for African businesses, big or small.</p>
-          </div>
-          <div class="why-item reveal reveal-delay-3">
-            <span class="num">04</span>
-            <h3>Ongoing support</h3>
-            <p>We don't disappear after launch. Updates, fixes and new features whenever you need them.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- ===== Our Work ===== -->
-    <section id="work" aria-labelledby="work-title">
-      <div class="container">
-        <div class="section-head reveal">
-          <span class="kicker">Our Work</span>
-          <h2 id="work-title">Products we're proud of</h2>
-          <p>Real systems, running real businesses every day.</p>
-        </div>
-
-        <div class="work-grid">
-          <article class="work-card reveal">
-            <span class="work-tag">Healthcare Software</span>
-            <h3>Global Pharmacy</h3>
-            <p>A complete pharmacy management platform — point of sale, inventory and expiry tracking, and sales analytics used in day-to-day operations.</p>
-            <span class="work-link">Custom Software · Delivered</span>
-          </article>
-
-          <article class="work-card reveal">
-            <span class="work-tag">Website</span>
-            <h3>BMG Tours</h3>
-            <p>A clean, modern company website showcasing tour packages and giving travellers an easy way to reach the team.</p>
-            <span class="work-link">Web Design &amp; Development</span>
-          </article>
-
-          <article class="work-card reveal">
-            <span class="work-tag">Church Website</span>
-            <h3>Miracle Ground Intl Church</h3>
-            <p>A beautiful, modern website for Miracle Ground International Church — built to welcome visitors and share the church's story and services online.</p>
-            <a class="work-link" href="https://raclegroundinternationalchurch.com" target="_blank" rel="noopener">Visit raclegroundinternationalchurch.com →</a>
-          </article>
-
-          <article class="work-card reveal reveal-delay-1">
-            <span class="work-tag">Dating App</span>
-            <h3>Jambah<span style="color:var(--accent)">.app</span></h3>
-            <p>A modern dating app designed, developed and maintained end-to-end by the Cyberville team — from first sketch to live product.</p>
-            <a class="work-link" href="https://jambah.app" target="_blank" rel="noopener">Visit jambah.app →</a>
-          </article>
-
-          <article class="work-card reveal">
-            <span class="work-tag">Fintech Platform</span>
-            <h3>GurushNOW<span style="color:var(--accent)">.com</span></h3>
-            <p>A fintech platform built and shipped by Cyberville, from design through deployment.</p>
-            <a class="work-link" href="https://gurushnow.com" target="_blank" rel="noopener">Visit gurushnow.com →</a>
-          </article>
-
-          <article class="work-card reveal reveal-delay-1">
-            <span class="work-tag">Restaurant POS + Website</span>
-            <h3>TheSeaPride<span style="color:var(--accent)">.com</span></h3>
-            <p>A complete restaurant operating system — point of sale, inventory, staff management and kitchen display — plus a premium public website for a multi-outlet seafood chain in Nigeria.</p>
-            <a class="work-link" href="https://theseapride.online" target="_blank" rel="noopener">Restaurant OS →</a>
-            <a class="work-link" href="https://www.theseapride.com" target="_blank" rel="noopener">Visit theseapride.com →</a>
-          </article>
-
-          <article class="work-card reveal">
-            <span class="work-tag">Restaurant POS + Website</span>
-            <h3>Beeshop's Place<span style="color:var(--accent)">.com</span></h3>
-            <p>A restaurant operating system powering daily sales, orders, stock and kitchen operations, paired with a public-facing website for Beeshop's Place Lounge &amp; Bar in Ibadan.</p>
-            <a class="work-link" href="https://beeshops-restaurantos.vercel.app" target="_blank" rel="noopener">Restaurant OS →</a>
-            <a class="work-link" href="https://beeshopsplace.com" target="_blank" rel="noopener">Visit beeshopsplace.com →</a>
-          </article>
-
-          <article class="work-card reveal reveal-delay-1">
-            <span class="work-tag">Pharmacy POS</span>
-            <h3>Cyberville POS</h3>
-            <p>A flexible point-of-sale system built for pharmacies, shops and restaurants, with inventory, billing and reporting built in.</p>
-            <span class="work-link">In-House Product</span>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <!-- ===== FAQ ===== -->
-    <section id="faq" class="faq-wrap" aria-labelledby="faq-title">
-      <div class="container">
-        <div class="section-head reveal">
-          <span class="kicker">FAQ</span>
-          <h2 id="faq-title">Frequently asked questions</h2>
-          <p>Quick answers about working with Cyberville.</p>
-        </div>
-
-        <div class="faq-list">
-          <details class="faq-item reveal">
-            <summary>Where is Cyberville located?
-              <span class="chev" aria-hidden="true"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg></span>
-            </summary>
-            <p class="faq-a">Cyberville is a software development company based in Juba, South Sudan, working with clients across South Sudan and East Africa. Call or WhatsApp <a href="tel:+211922734334" style="color:var(--accent)">+211 92 273 4334</a> to reach us.</p>
-          </details>
-
-          <details class="faq-item reveal">
-            <summary>How much does a website or software cost in South Sudan?
-              <span class="chev" aria-hidden="true"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg></span>
-            </summary>
-            <p class="faq-a">Every project is different. A simple business website costs far less than a full pharmacy or hospital management system. Send us a short description of your project and we will reply with a free quote, usually within 24 hours.</p>
-          </details>
-
-          <details class="faq-item reveal">
-            <summary>Do you build pharmacy management systems?
-              <span class="chev" aria-hidden="true"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg></span>
-            </summary>
-            <p class="faq-a">Yes. We built the system that runs Global Pharmacy, including point of sale, inventory and expiry tracking, and daily sales reports. We can build the same kind of system for your pharmacy.</p>
-          </details>
-
-          <details class="faq-item reveal">
-            <summary>How long does it take to build a website or app?
-              <span class="chev" aria-hidden="true"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg></span>
-            </summary>
-            <p class="faq-a">Most business websites are ready within 1 to 3 weeks. Larger systems like hospital or accounting software take longer because we design them around how your business actually works.</p>
-          </details>
-
-          <details class="faq-item reveal">
-            <summary>Do you provide support after launch?
-              <span class="chev" aria-hidden="true"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg></span>
-            </summary>
-            <p class="faq-a">Yes. We stay with you after launch and remain available for updates, fixes and training whenever you need us.</p>
-          </details>
-        </div>
-      </div>
-    </section>
-
-    <!-- ===== CTA banner ===== -->
-    <section aria-labelledby="cta-title">
-      <div class="container">
-        <div class="cta-banner reveal">
-          <h2 id="cta-title">Have an idea? Let's bring it to life.</h2>
-          <p>Tell us what you need — from a simple website to a complete business software system. We reply within 24 hours.</p>
-          <div class="cta-actions">
-            <a class="btn btn-white" href="https://wa.me/211922734334?text=Hi%20Cyberville%2C%20I%20will%20like%20to%20build%20this%20software%20or%20website%20that%20does%20........%2C%20what%20would%20I%20need%3F" target="_blank" rel="noopener">Start a Conversation</a>
-            <a class="btn btn-ghost" href="#contact" style="color:#fff;border-color:rgba(255,255,255,0.4);background:rgba(255,255,255,0.1);">Send a Project Brief</a>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- ===== Contact ===== -->
-    <section id="contact" aria-labelledby="contact-title">
-      <div class="container contact-wrap">
-        <div class="contact-info">
-          <span class="kicker" style="display:inline-flex;align-items:center;gap:8px;font-size:.78rem;font-weight:700;text-transform:uppercase;letter-spacing:.18em;color:var(--accent);margin-bottom:16px;padding:7px 16px;border-radius:999px;background:var(--accent-light);border:1px solid rgba(2,96,254,0.12);">Get In Touch</span>
-          <h2 id="contact-title" class="reveal">Let's build something together</h2>
-          <p class="reveal">Tell us about your business and what you need — we'll get back to you within 24 hours.</p>
-
-          <ul class="contact-list">
-            <li>
-              <a class="contact-item" href="tel:+211922734334">
-                <span class="ci-icon" aria-hidden="true">
-                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
-                </span>
-                <span><small>Call / WhatsApp</small><strong>+211 92 273 4334</strong></span>
-              </a>
-            </li>
-            <li>
-              <a class="contact-item" href="mailto:enquires@cyberville.tech">
-                <span class="ci-icon" aria-hidden="true">
-                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
-                </span>
-                <span><small>Email</small><strong>enquires@cyberville.tech</strong></span>
-              </a>
-            </li>
-            <li>
-              <a class="contact-item" href="https://www.instagram.com/cybervillejuba" target="_blank" rel="noopener">
-                <span class="ci-icon" aria-hidden="true">
-                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/></svg>
-                </span>
-                <span><small>Instagram</small><strong>@cybervillejuba</strong></span>
-              </a>
-            </li>
-            <li>
-              <a class="contact-item" href="https://www.tiktok.com/@cybervillejuba" target="_blank" rel="noopener">
-                <span class="ci-icon" aria-hidden="true">
-                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 12a4 4 0 1 0 4 4V4a5 5 0 0 0 5 5"/></svg>
-                </span>
-                <span><small>TikTok</small><strong>@cybervillejuba</strong></span>
-              </a>
-            </li>
-            <li>
-              <a class="contact-item" href="https://www.facebook.com/cybervillejuba" target="_blank" rel="noopener">
-                <span class="ci-icon" aria-hidden="true">
-                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
-                </span>
-                <span><small>Facebook</small><strong>@cybervillejuba</strong></span>
-              </a>
-            </li>
-            <li>
-              <a class="contact-item" href="https://x.com/cybervillejuba" target="_blank" rel="noopener">
-                <span class="ci-icon" aria-hidden="true">
-                  <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
-                </span>
-                <span><small>X (Twitter)</small><strong>@cybervillejuba</strong></span>
-              </a>
-            </li>
+          <ul class="nav-links" id="nav-links">
+            <li><a href="#platform">Platform</a></li>
+            <li><a href="#apps">Apps</a></li>
+            <li><a href="#work">Our Work</a></li>
+            <li><a href="#why">Why Us</a></li>
+            <li><a href="#faq">FAQ</a></li>
+            <li><a href="#contact">Contact</a></li>
           </ul>
 
-          <p class="location-note">
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 10c0 4.99-5.54 10.2-7.4 11.79a1 1 0 0 1-1.2 0C9.54 20.2 4 14.99 4 10a8 8 0 0 1 16 0"/><circle cx="12" cy="10" r="3"/></svg>
-            Based in Juba, South Sudan · Serving clients worldwide
-          </p>
+          <div class="nav-cta">
+            <a class="nav-signin" href="https://app.cyberville.tech" target="_blank" rel="noopener">Sign in</a>
+            <a
+              class="btn btn-primary"
+              href="https://wa.me/211922734334?text=Hi%20Cyberville%2C%20I%20will%20like%20to%20build%20this%20software%20or%20website%20that%20does%20........%2C%20what%20would%20I%20need%3F"
+              target="_blank"
+              rel="noopener"
+            ><span>Request a </span>Project</a>
+            <button class="hamburger" id="hamburger" aria-label="Toggle navigation menu" aria-controls="nav-links" aria-expanded="false">
+              <span></span><span></span><span></span>
+            </button>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <!-- ================= Hero ================= -->
+      <section class="hero" aria-label="Introduction">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+
+        <div class="container">
+          <div class="hero-grid">
+            <div>
+              <p class="badge reveal"><span class="dot"></span> Software company in Juba, South Sudan</p>
+              <h1 class="reveal">
+                Software that runs
+                <span class="grad-text">Africa's businesses.</span>
+              </h1>
+              <p class="lead reveal reveal-delay-1">
+                Pharmacy systems, hospital software, retail &amp; restaurant POS, websites and mobile
+                apps — one local team building reliable software your staff can actually use, and we
+                support you long after launch.
+              </p>
+              <div class="hero-actions reveal reveal-delay-2">
+                <a
+                  class="btn btn-gradient btn-lg"
+                  href="https://wa.me/211922734334?text=Hi%20Cyberville%2C%20I%20will%20like%20to%20build%20this%20software%20or%20website%20that%20does%20........%2C%20what%20would%20I%20need%3F"
+                  target="_blank"
+                  rel="noopener"
+                >Get Started Free</a>
+                <a class="btn btn-ghost btn-lg" href="https://app.cyberville.tech" target="_blank" rel="noopener">Try the App</a>
+              </div>
+              <p class="hero-note reveal reveal-delay-3">Free quote within <b>24 hours</b> · No obligation</p>
+            </div>
+
+            <!-- Product mockup -->
+            <div class="mockup reveal reveal-delay-2" aria-hidden="true">
+              <div class="mockup-window">
+                <div class="titlebar">
+                  <i></i><i></i><i></i>
+                  <span>app.cyberville.tech — point of sale</span>
+                </div>
+                <div class="mockup-body">
+                  <div class="mockup-side">
+                    <b>Cyberville</b>
+                    <div class="side-item on"><i></i> Dashboard</div>
+                    <div class="side-item"><i></i> Sales</div>
+                    <div class="side-item"><i></i> Inventory</div>
+                    <div class="side-item"><i></i> Customers</div>
+                    <div class="side-item"><i></i> Reports</div>
+                    <div class="side-item"><i></i> Cashiers</div>
+                    <div class="side-item"><i></i> Settings</div>
+                  </div>
+                  <div class="mockup-main">
+                    <div class="mockup-topbar">
+                      <span class="m-title">Today's sales</span>
+                      <div class="mockup-actions">
+                        <span class="blue">New sale</span>
+                        <span class="white">Report</span>
+                      </div>
+                    </div>
+                    <div class="mockup-chart">
+                      <span style="height: 34%"></span>
+                      <span style="height: 52%"></span>
+                      <span style="height: 40%"></span>
+                      <span style="height: 66%"></span>
+                      <span style="height: 58%"></span>
+                      <span style="height: 78%"></span>
+                      <span style="height: 62%"></span>
+                      <span style="height: 88%"></span>
+                      <span style="height: 74%"></span>
+                      <span style="height: 96%"></span>
+                    </div>
+                    <div class="mockup-rows">
+                      <div class="mrow">
+                        <b>Amoxicillin 500mg</b>
+                        <span>3 × SSP 1,200</span>
+                        <span class="amt">SSP 3,600</span>
+                        <span class="pill">Paid</span>
+                      </div>
+                      <div class="mrow">
+                        <b>Grilled Fish Platter</b>
+                        <span>2 × SSP 8,500</span>
+                        <span class="amt">SSP 17,000</span>
+                        <span class="pill">Paid</span>
+                      </div>
+                      <div class="mrow">
+                        <b>Mobile Money charge</b>
+                        <span>1 × SSP 300</span>
+                        <span class="amt">SSP 300</span>
+                        <span class="pill">Pending</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="mockup-float">
+                <span class="f-ico">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 7 8.5 16.5 2 11" /><path d="M16 22 7 12.5" /><path d="M22 2 7 16.5" /><path d="M14 22l7-8" /></svg>
+                </span>
+                <div>
+                  <b>We're online</b>
+                  <span>Sales syncing <b class="f-up">· LIVE</b></span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Trusted marquee -->
+          <div class="trusted reveal">
+            <p>Trusted by teams like</p>
+            <div class="marquee">
+              <div class="marquee-track">
+                <span>Global Pharmacy</span>
+                <span>BMG Tours</span>
+                <span>Jambah</span>
+                <span>GurushNOW</span>
+                <span>TheSeaPride</span>
+                <span>Beeshop&rsquo;s Place</span>
+                <span>Miracle Ground Intl Church</span>
+                <span>Akheer</span>
+                <span>Global Pharmacy</span>
+                <span>BMG Tours</span>
+                <span>Jambah</span>
+                <span>GurushNOW</span>
+                <span>TheSeaPride</span>
+                <span>Beeshop&rsquo;s Place</span>
+                <span>Miracle Ground Intl Church</span>
+                <span>Akheer</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================= Stats band ================= -->
+      <div class="container">
+        <div class="stats-band reveal" aria-label="Cyberville in numbers">
+          <div class="stat">
+            <span class="num" data-count="30" data-suffix="+">0+</span>
+            <span class="lbl">Projects Delivered</span>
+          </div>
+          <div class="stat">
+            <span class="num" data-count="9" data-suffix="+">0+</span>
+            <span class="lbl">Industries Served</span>
+          </div>
+          <div class="stat">
+            <span class="num" data-count="24" data-suffix="h">0h</span>
+            <span class="lbl">Quote Response Time</span>
+          </div>
+          <div class="stat">
+            <span class="num" data-count="100" data-suffix="%">0%</span>
+            <span class="lbl">Support Commitment</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- ================= Platform ================= -->
+      <section id="apps" aria-labelledby="apps-title">
+        <div class="container">
+          <div class="section-head reveal">
+            <span class="kicker">The Platform</span>
+            <h2 id="apps-title">Everything your business runs on, in one suite</h2>
+            <p>
+              Point of sale, inventory, patients, bookings, accounts and reporting — one integrated
+              platform your team can learn in a day, not a month.
+            </p>
+          </div>
+
+          <div class="apps-grid">
+            <article class="app-tile reveal">
+              <span class="app-ico">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M10.5 20.5 3.5 13.5a4.95 4.95 0 1 1 7-7l.5.5.5-.5a4.95 4.95 0 0 1 4-1.46"/><path d="m17 21 3-3-3-3"/><path d="m21 21-3-3"/></svg>
+              </span>
+              <h3>Pharmacy</h3>
+              <p>Point of sale, inventory, expiry alerts and daily sales reports — the platform powering Global Pharmacy.</p>
+              <span class="tile-link">Management system</span>
+            </article>
+
+            <article class="app-tile reveal reveal-delay-1">
+              <span class="app-ico">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.29 1.51 4.04 3 5.5l7 7Z"/><path d="M3.22 12H9.5l.5-1 2 4.5 2-7 1.5 3.5h5.27"/></svg>
+              </span>
+              <h3>Hospital &amp; Clinic</h3>
+              <p>Patient records, appointments, billing and reporting that help hospitals work faster and safer.</p>
+              <span class="tile-link">Healthcare software</span>
+            </article>
+
+            <article class="app-tile reveal reveal-delay-2">
+              <span class="app-ico">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect width="7" height="9" x="3" y="3" rx="1"/><rect width="7" height="5" x="14" y="3" rx="1"/><rect width="7" height="9" x="14" y="12" rx="1"/><rect width="7" height="5" x="3" y="16" rx="1"/></svg>
+              </span>
+              <h3>Retail &amp; Mall POS</h3>
+              <p>Sales terminals, stock control and staff management for shops, supermarkets and shopping centres.</p>
+              <span class="tile-link">Store management</span>
+            </article>
+
+            <article class="app-tile reveal reveal-delay-3">
+              <span class="app-ico">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 2v7c0 1.1.9 2 2 2h4a2 2 0 0 0 2-2V2"/><path d="M7 2v20"/><path d="M21 15V2a5 5 0 0 0-5 5v6c0 1.1.9 2 2 2h3Zm0 0v7"/></svg>
+              </span>
+              <h3>Restaurant</h3>
+              <p>Sales, orders, stock and kitchen display for restaurants and bars — running TheSeaPride and Beeshop&rsquo;s Place.</p>
+              <span class="tile-link">Restaurant OS</span>
+            </article>
+
+            <article class="app-tile reveal">
+              <span class="app-ico">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/><path d="M2 12h20"/></svg>
+              </span>
+              <h3>Websites</h3>
+              <p>Fast, modern sites that make your brand look world-class — built and hosted for you.</p>
+              <span class="tile-link">Web design</span>
+            </article>
+
+            <article class="app-tile reveal reveal-delay-1">
+              <span class="app-ico">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect width="14" height="20" x="5" y="2" rx="2" ry="2"/><path d="M12 18h.01"/></svg>
+              </span>
+              <h3>Mobile Apps</h3>
+              <p>Android and iOS apps from idea to app store — we are the developers behind Jambah.app.</p>
+              <span class="tile-link">iOS &amp; Android</span>
+            </article>
+
+            <article class="app-tile reveal reveal-delay-2">
+              <span class="app-ico">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+              </span>
+              <h3>Accounting &amp; ERP</h3>
+              <p>Tailor-made business and accounting systems for processes no off-the-shelf tool covers.</p>
+              <span class="tile-link">Custom software</span>
+            </article>
+
+            <article class="app-tile reveal reveal-delay-3">
+              <span class="app-ico">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect width="16" height="16" x="4" y="4" rx="2"/><rect width="6" height="6" x="9" y="9"/><path d="M15 2v2"/><path d="M15 20v2"/><path d="M2 15h2"/><path d="M2 9h2"/><path d="M20 15h2"/><path d="M20 9h2"/><path d="M9 2v2"/><path d="M9 20v2"/></svg>
+              </span>
+              <h3>Hardware &amp; CCTV</h3>
+              <p>Laptops, printers, networking gear, plus professional CCTV installation and remote viewing.</p>
+              <span class="tile-link">Supplied &amp; set up</span>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================= Why Us ================= -->
+      <section id="why" class="section-band" aria-labelledby="why-title">
+        <div class="container">
+          <div class="section-head reveal">
+            <span class="kicker">Why Cyberville</span>
+            <h2 id="why-title">Built locally. Built to last.</h2>
+            <p>We understand how businesses run in South Sudan — because we live and work here too.</p>
+          </div>
+
+          <div class="process-grid">
+            <div class="process-step reveal">
+              <span class="num">01</span>
+              <h3>Local understanding</h3>
+              <p>Software shaped around how businesses actually operate in Juba, South Sudan and East Africa.</p>
+            </div>
+            <div class="process-step reveal reveal-delay-1">
+              <span class="num">02</span>
+              <h3>End-to-end delivery</h3>
+              <p>From first sketch to launch day — design, development, deployment and training, all under one roof.</p>
+            </div>
+            <div class="process-step reveal reveal-delay-2">
+              <span class="num">03</span>
+              <h3>Fair, honest pricing</h3>
+              <p>World-class quality at prices that make sense for African businesses, big or small.</p>
+            </div>
+            <div class="process-step reveal reveal-delay-3">
+              <span class="num">04</span>
+              <h3>Ongoing support</h3>
+              <p>We don't disappear after launch. Updates, fixes and new features whenever you need them.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================= Quote band ================= -->
+      <section class="quote-band" aria-label="Testimonial">
+        <div class="container">
+          <div class="reveal">
+            <span class="quote-mark">&rdquo;</span>
+            <blockquote>
+              Cyberville understood our daily workflow before writing a single line of code.
+              The system they built simply runs our business — no surprises, no downtime.
+            </blockquote>
+            <cite>— Global Pharmacy, Juba</cite>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================= Our Work ================= -->
+      <section id="work" aria-labelledby="work-title">
+        <div class="container">
+          <div class="section-head reveal">
+            <span class="kicker">Our Work</span>
+            <h2 id="work-title">Products we&rsquo;re proud of</h2>
+            <p>Real systems, running real businesses every day.</p>
+          </div>
+
+          <div class="work-grid">
+            <article class="work-card reveal">
+              <span class="work-tag">Healthcare Software</span>
+              <h3>Global Pharmacy</h3>
+              <p>A complete pharmacy management platform — point of sale, inventory and expiry tracking, and sales analytics used in day-to-day operations.</p>
+              <span class="work-link">Custom Software · Delivered</span>
+            </article>
+
+            <article class="work-card reveal reveal-delay-1">
+              <span class="work-tag">Website</span>
+              <h3>BMG Tours</h3>
+              <p>A clean, modern company website showcasing tour packages and giving travellers an easy way to reach the team.</p>
+              <span class="work-link">Web Design &amp; Development</span>
+            </article>
+
+            <article class="work-card reveal reveal-delay-2">
+              <span class="work-tag">Church Website</span>
+              <h3>Miracle Ground Intl Church</h3>
+              <p>A beautiful, modern website for Miracle Ground International Church — built to welcome visitors and share the church&rsquo;s story and services online.</p>
+              <a class="work-link" href="https://raclegroundinternationalchurch.com" target="_blank" rel="noopener">Visit raclegroundinternationalchurch.com →</a>
+            </article>
+
+            <article class="work-card reveal">
+              <span class="work-tag">Dating App</span>
+              <h3>Jambah<span style="color:var(--accent)">.app</span></h3>
+              <p>A modern dating app designed, developed and maintained end-to-end by the Cyberville team — from first sketch to live product.</p>
+              <a class="work-link" href="https://jambah.app" target="_blank" rel="noopener">Visit jambah.app →</a>
+            </article>
+
+            <article class="work-card reveal reveal-delay-1">
+              <span class="work-tag">Fintech Platform</span>
+              <h3>GurushNOW<span style="color:var(--accent)">.com</span></h3>
+              <p>A fintech platform built and shipped by Cyberville, from design through deployment.</p>
+              <a class="work-link" href="https://gurushnow.com" target="_blank" rel="noopener">Visit gurushnow.com →</a>
+            </article>
+
+            <article class="work-card reveal reveal-delay-2">
+              <span class="work-tag">Restaurant POS + Website</span>
+              <h3>TheSeaPride<span style="color:var(--accent)">.com</span></h3>
+              <p>A complete restaurant operating system — point of sale, inventory, staff management and kitchen display — plus a premium public website for a multi-outlet seafood chain in Nigeria.</p>
+              <a class="work-link" href="https://www.theseapride.com" target="_blank" rel="noopener">Visit theseapride.com →</a>
+            </article>
+
+            <article class="work-card reveal">
+              <span class="work-tag">Restaurant POS + Website</span>
+              <h3>Beeshop&rsquo;s Place<span style="color:var(--accent)">.com</span></h3>
+              <p>A restaurant operating system powering daily sales, orders, stock and kitchen operations, paired with a public-facing website for Beeshop&rsquo;s Place Lounge &amp; Bar.</p>
+              <a class="work-link" href="https://beeshopsplace.com" target="_blank" rel="noopener">Visit beeshopsplace.com →</a>
+            </article>
+
+            <article class="work-card reveal reveal-delay-1">
+              <span class="work-tag">Pharmacy POS</span>
+              <h3>Cyberville POS</h3>
+              <p>A flexible point-of-sale system built for pharmacies, shops and restaurants, with inventory, billing and reporting built in.</p>
+              <a class="work-link" href="https://app.cyberville.tech" target="_blank" rel="noopener">Open the live app →</a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================= FAQ ================= -->
+      <section id="faq" class="section-band" aria-labelledby="faq-title">
+        <div class="container">
+          <div class="section-head reveal">
+            <span class="kicker">FAQ</span>
+            <h2 id="faq-title">Frequently asked questions</h2>
+            <p>Quick answers about working with Cyberville.</p>
+          </div>
+
+          <div class="faq-list">
+            <details class="faq-item reveal">
+              <summary>
+                Where is Cyberville located?
+                <span class="chev" aria-hidden="true"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg></span>
+              </summary>
+              <p class="faq-a">Cyberville is a software development company based in Juba, South Sudan, working with clients across South Sudan and East Africa. Call or WhatsApp <a href="tel:+211922734334">+211 92 273 4334</a> to reach us.</p>
+            </details>
+
+            <details class="faq-item reveal">
+              <summary>
+                How much does a website or software cost in South Sudan?
+                <span class="chev" aria-hidden="true"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg></span>
+              </summary>
+              <p class="faq-a">Every project is different. A simple business website costs far less than a full pharmacy or hospital management system. Send us a short description of your project and we will reply with a free quote, usually within 24 hours.</p>
+            </details>
+
+            <details class="faq-item reveal">
+              <summary>
+                Do you build pharmacy management systems?
+                <span class="chev" aria-hidden="true"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg></span>
+              </summary>
+              <p class="faq-a">Yes. We built the system that runs Global Pharmacy, including point of sale, inventory and expiry tracking, and daily sales reports. We can build the same kind of system for your pharmacy.</p>
+            </details>
+
+            <details class="faq-item reveal">
+              <summary>
+                How long does it take to build a website or app?
+                <span class="chev" aria-hidden="true"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg></span>
+              </summary>
+              <p class="faq-a">Most business websites are ready within 1 to 3 weeks. Larger systems like hospital or accounting software take longer because we design them around how your business actually works.</p>
+            </details>
+
+            <details class="faq-item reveal">
+              <summary>
+                Do you provide support after launch?
+                <span class="chev" aria-hidden="true"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg></span>
+              </summary>
+              <p class="faq-a">Yes. We stay with you after launch and remain available for updates, fixes and training whenever you need us.</p>
+            </details>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================= CTA banner ================= -->
+      <section aria-labelledby="cta-title">
+        <div class="container">
+          <div class="cta-banner reveal">
+            <h2 id="cta-title">Have an idea? Let&rsquo;s bring it to life.</h2>
+            <p>Tell us what you need — from a simple website to a complete business software system. We reply within 24 hours.</p>
+            <div class="cta-actions">
+              <a
+                class="btn btn-light btn-lg"
+                href="https://wa.me/211922734334?text=Hi%20Cyberville%2C%20I%20will%20like%20to%20build%20this%20software%20or%20website%20that%20does%20........%2C%20what%20would%20I%20need%3F"
+                target="_blank"
+                rel="noopener"
+              >Start a Conversation</a>
+              <a class="btn btn-gradient btn-lg" href="#contact">Send a Project Brief</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================= Contact ================= -->
+      <section id="contact" class="section-band" aria-labelledby="contact-title">
+        <div class="container">
+          <div class="contact-grid">
+            <div>
+              <span class="kicker">Get In Touch</span>
+              <h2 id="contact-title" class="reveal">Let&rsquo;s build something together</h2>
+              <p class="reveal">Tell us about your business and what you need — we&rsquo;ll get back to you within 24 hours.</p>
+
+              <ul class="contact-list reveal reveal-delay-1">
+                <li>
+                  <a class="contact-item" href="tel:+211922734334">
+                    <span class="ci-icon" aria-hidden="true">
+                      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                    </span>
+                    <span><small>Call / WhatsApp</small><strong>+211 92 273 4334</strong></span>
+                  </a>
+                </li>
+                <li>
+                  <a class="contact-item" href="mailto:enquires@cyberville.tech">
+                    <span class="ci-icon" aria-hidden="true">
+                      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+                    </span>
+                    <span><small>Email</small><strong>enquires@cyberville.tech</strong></span>
+                  </a>
+                </li>
+                <li>
+                  <a class="contact-item" href="https://www.instagram.com/cybervillejuba" target="_blank" rel="noopener">
+                    <span class="ci-icon" aria-hidden="true">
+                      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/></svg>
+                    </span>
+                    <span><small>Instagram</small><strong>@cybervillejuba</strong></span>
+                  </a>
+                </li>
+                <li>
+                  <a class="contact-item" href="https://www.tiktok.com/@cybervillejuba" target="_blank" rel="noopener">
+                    <span class="ci-icon" aria-hidden="true">
+                      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 12a4 4 0 1 0 4 4V4a5 5 0 0 0 5 5"/></svg>
+                    </span>
+                    <span><small>TikTok</small><strong>@cybervillejuba</strong></span>
+                  </a>
+                </li>
+                <li>
+                  <a class="contact-item" href="https://www.facebook.com/cybervillejuba" target="_blank" rel="noopener">
+                    <span class="ci-icon" aria-hidden="true">
+                      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+                    </span>
+                    <span><small>Facebook</small><strong>@cybervillejuba</strong></span>
+                  </a>
+                </li>
+                <li>
+                  <a class="contact-item" href="https://x.com/cybervillejuba" target="_blank" rel="noopener">
+                    <span class="ci-icon" aria-hidden="true">
+                      <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+                    </span>
+                    <span><small>X (Twitter)</small><strong>@cybervillejuba</strong></span>
+                  </a>
+                </li>
+              </ul>
+
+              <p class="location-note reveal reveal-delay-2">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 10c0 4.99-5.54 10.2-7.4 11.79a1 1 0 0 1-1.2 0C9.54 20.2 4 14.99 4 10a8 8 0 0 1 16 0"/><circle cx="12" cy="10" r="3"/></svg>
+                Based in Juba, South Sudan · Serving clients worldwide
+              </p>
+            </div>
+
+            <form class="quote-form reveal reveal-delay-1" id="quote-form" aria-label="Project inquiry form">
+              <div class="form-row">
+                <div>
+                  <label for="name">Your Name</label>
+                  <input type="text" id="name" name="name" placeholder="Jane Doe" autocomplete="name" required />
+                </div>
+                <div>
+                  <label for="business">Business Name</label>
+                  <input type="text" id="business" name="business" placeholder="Acme Ltd" autocomplete="organization" />
+                </div>
+              </div>
+              <div>
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" placeholder="you@company.com" autocomplete="email" required />
+              </div>
+              <div>
+                <label for="service">What do you need?</label>
+                <select id="service" name="service">
+                  <option>Pharmacy Management System</option>
+                  <option>Hospital / Clinic Software</option>
+                  <option>Retail / Mall POS System</option>
+                  <option>Restaurant POS System</option>
+                  <option>Business Website</option>
+                  <option>Church Website</option>
+                  <option>Mobile App</option>
+                  <option>Accounting System</option>
+                  <option>Computer Hardware / Accessories</option>
+                  <option>CCTV Camera Installation</option>
+                  <option>Something Custom</option>
+                </select>
+              </div>
+              <div>
+                <label for="message">Tell us about your project</label>
+                <textarea id="message" name="message" placeholder="We run a pharmacy in Juba and we need..." required></textarea>
+              </div>
+              <button type="submit" class="btn btn-gradient">Send via WhatsApp</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- ================= Footer ================= -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-brand">
+            <a class="logo" href="#top" aria-label="Cyberville — back to top">
+              <img class="logo-mark" src="/assets/logo-mark.jpeg" alt="" width="34" height="34" />
+              Cyberville
+            </a>
+            <p>Software development company based in Juba, South Sudan — building reliable systems for pharmacies, hospitals, retail and more.</p>
+            <div class="footer-socials">
+              <a href="https://www.instagram.com/cybervillejuba" target="_blank" rel="noopener" aria-label="Cyberville on Instagram">
+                <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/></svg>
+              </a>
+              <a href="https://www.tiktok.com/@cybervillejuba" target="_blank" rel="noopener" aria-label="Cyberville on TikTok">
+                <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 12a4 4 0 1 0 4 4V4a5 5 0 0 0 5 5"/></svg>
+              </a>
+              <a href="https://www.facebook.com/cybervillejuba" target="_blank" rel="noopener" aria-label="Cyberville on Facebook">
+                <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+              </a>
+              <a href="https://x.com/cybervillejuba" target="_blank" rel="noopener" aria-label="Cyberville on X (Twitter)">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+              </a>
+              <a href="https://wa.me/211922734334" target="_blank" rel="noopener" aria-label="Cyberville on WhatsApp">
+                <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              </a>
+              <a href="mailto:enquires@cyberville.tech" aria-label="Email Cyberville">
+                <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+              </a>
+            </div>
+          </div>
+
+          <div>
+            <h4>Platform</h4>
+            <ul>
+              <li><a href="#apps">Pharmacy</a></li>
+              <li><a href="#apps">Hospital &amp; Clinic</a></li>
+              <li><a href="#apps">Retail &amp; Mall POS</a></li>
+              <li><a href="#apps">Restaurant OS</a></li>
+              <li><a href="#apps">Websites &amp; Apps</a></li>
+            </ul>
+          </div>
+
+          <div>
+            <h4>Company</h4>
+            <ul>
+              <li><a href="#work">Our Work</a></li>
+              <li><a href="#why">Why Us</a></li>
+              <li><a href="#faq">FAQ</a></li>
+              <li><a href="#contact">Contact</a></li>
+              <li><a href="https://app.cyberville.tech" target="_blank" rel="noopener">Sign In</a></li>
+            </ul>
+          </div>
+
+          <div>
+            <h4>Hardware</h4>
+            <ul>
+              <li><a href="#apps">Laptops &amp; Desktops</a></li>
+              <li><a href="#apps">Networking Gear</a></li>
+              <li><a href="#apps">CCTV Installation</a></li>
+              <li><a href="#apps">Office Setup</a></li>
+            </ul>
+          </div>
+
+          <div>
+            <h4>Contact</h4>
+            <ul>
+              <li><a href="tel:+211922734334">+211 92 273 4334</a></li>
+              <li><a href="mailto:enquires@cyberville.tech">enquires@cyberville.tech</a></li>
+              <li><a href="https://wa.me/211922734334" target="_blank" rel="noopener">WhatsApp Us</a></li>
+              <li>Juba, South Sudan</li>
+            </ul>
+          </div>
         </div>
 
-        <form class="quote-form reveal" id="quote-form" aria-label="Project inquiry form">
-          <div class="form-row">
-            <div>
-              <label for="name">Your Name</label>
-              <input type="text" id="name" name="name" placeholder="Jane Doe" autocomplete="name" required />
-            </div>
-            <div>
-              <label for="business">Business Name</label>
-              <input type="text" id="business" name="business" placeholder="Acme Ltd" autocomplete="organization" />
-            </div>
-          </div>
-          <div>
-            <label for="email">Email Address</label>
-            <input type="email" id="email" name="email" placeholder="you@company.com" autocomplete="email" required />
-          </div>
-          <div>
-            <label for="service">What do you need?</label>
-            <select id="service" name="service">
-              <option>Pharmacy Management System</option>
-              <option>Hospital / Clinic Software</option>
-              <option>Retail / Mall POS System</option>
-              <option>Business Website</option>
-              <option>Church Website</option>
-              <option>Mobile App</option>
-              <option>Accounting System</option>
-              <option>Computer Hardware / Accessories</option>
-              <option>CCTV Camera Installation</option>
-              <option>Something Custom</option>
-            </select>
-          </div>
-          <div>
-            <label for="message">Tell us about your project</label>
-            <textarea id="message" name="message" placeholder="We run a pharmacy in Juba and we need..." required></textarea>
-          </div>
-          <button type="submit" class="btn btn-primary" style="justify-content:center;">Send via WhatsApp</button>
-        </form>
+        <div class="footer-bottom">
+          <p>© <span id="year"></span> Cyberville · Software Development Company · Juba, South Sudan</p>
+          <a href="#top">Back to top ↑</a>
+        </div>
       </div>
-    </section>
-  </main>
+    </footer>
 
-  <!-- ===== Footer ===== -->
-  <footer>
-    <div class="container footer-inner">
-      <div>
-        <a class="logo" href="#top" style="margin-bottom:8px;" aria-label="Cyberville — back to top">
-          <img class="logo-mark" src="/assets/logo-mark.jpeg" alt="" width="32" height="32" />
-          Cyberville
-        </a>
-        <p>© <span id="year"></span> Cyberville · Software Development Company<br />Juba, South Sudan · cyberville.tech</p>
-      </div>
-
-      <div class="socials">
-        <a href="https://www.instagram.com/cybervillejuba" target="_blank" rel="noopener" aria-label="Cyberville on Instagram">
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/></svg>
-        </a>
-        <a href="https://www.tiktok.com/@cybervillejuba" target="_blank" rel="noopener" aria-label="Cyberville on TikTok">
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 12a4 4 0 1 0 4 4V4a5 5 0 0 0 5 5"/></svg>
-        </a>
-        <a href="https://www.facebook.com/cybervillejuba" target="_blank" rel="noopener" aria-label="Cyberville on Facebook">
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
-        </a>
-        <a href="https://x.com/cybervillejuba" target="_blank" rel="noopener" aria-label="Cyberville on X (Twitter)">
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
-        </a>
-        <a href="https://wa.me/211922734334" target="_blank" rel="noopener" aria-label="Cyberville on WhatsApp">
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
-        </a>
-        <a href="mailto:enquires@cyberville.tech" aria-label="Email Cyberville">
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
-        </a>
-      </div>
-    </div>
-  </footer>
-
-  <script>
-    // Current year
-    document.getElementById("year").textContent = new Date().getFullYear();
-
-    // Header shadow on scroll
-    const header = document.getElementById("site-header");
-    window.addEventListener("scroll", () => {
-      header.classList.toggle("scrolled", window.scrollY > 10);
-    }, { passive: true });
-
-    // Mobile menu
-    const hamburger = document.getElementById("hamburger");
-    const navLinks = document.getElementById("nav-links");
-    hamburger.addEventListener("click", () => {
-      const open = navLinks.classList.toggle("open");
-      hamburger.setAttribute("aria-expanded", open);
-    });
-    navLinks.querySelectorAll("a").forEach((link) =>
-      link.addEventListener("click", () => navLinks.classList.remove("open"))
-    );
-
-    // Scroll reveal
-    const observer = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((entry) => {
-          if (entry.isIntersecting) {
-            entry.target.classList.add("visible");
-            observer.unobserve(entry.target);
-          }
-        });
-      },
-      { threshold: 0.12 }
-    );
-    document.querySelectorAll(".reveal").forEach((el) => observer.observe(el));
-
-    // Animated counters
-    const counters = document.querySelectorAll(".stat .num");
-    const counterObserver = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((entry) => {
-          if (!entry.isIntersecting) return;
-          const el = entry.target;
-          counterObserver.unobserve(el);
-          const target = parseInt(el.dataset.count, 10);
-          const suffix = el.dataset.suffix || "";
-          const duration = 1400;
-          const start = performance.now();
-          const step = (now) => {
-            const progress = Math.min((now - start) / duration, 1);
-            const eased = 1 - Math.pow(1 - progress, 3);
-            el.textContent = Math.round(eased * target) + suffix;
-            if (progress < 1) requestAnimationFrame(step);
-          };
-          requestAnimationFrame(step);
-        });
-      },
-      { threshold: 0.4 }
-    );
-    counters.forEach((c) => counterObserver.observe(c));
-
-    // Quote form -> opens WhatsApp with prefilled message
-    document.getElementById("quote-form").addEventListener("submit", function (e) {
-      e.preventDefault();
-      const data = new FormData(this);
-      const text =
-        "Hi Cyberville, I will like to build this software or website." +
-        "\n\nName: " + data.get("name") +
-        "\nBusiness: " + (data.get("business") || "-") +
-        "\nWhat I need: " + data.get("service") +
-        "\n\nProject Details:\n" + data.get("message") +
-        "\n\nReply to me at: " + data.get("email");
-      window.open("https://wa.me/211922734334?text=" + encodeURIComponent(text), "_blank", "noopener");
-    });
-  </script>
-</body>
+    <script src="/js/main.js"></script>
+  </body>
 </html>
