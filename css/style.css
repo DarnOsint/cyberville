@@ -948,59 +948,6 @@ section {
 }
 
 /* ============================================================
-   Portfolio / work grid
-   ============================================================ */
-.work-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
-}
-
-.work-card {
-  background: #fff;
-  border: 1px solid var(--line);
-  border-radius: var(--radius-sm);
-  padding: 24px;
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  transition: transform 0.18s ease, box-shadow 0.18s ease, border-color 0.18s ease;
-}
-
-.work-card:hover {
-  transform: translateY(-4px);
-  box-shadow: var(--shadow-md);
-  border-color: rgba(2, 96, 254, 0.35);
-}
-
-.work-tag {
-  align-self: flex-start;
-  font-size: 0.72rem;
-  font-weight: 700;
-  letter-spacing: 0.04em;
-  color: var(--accent-dark);
-  background: var(--bg-band);
-  border: 1px solid rgba(2, 96, 254, 0.16);
-  border-radius: 999px;
-  padding: 4px 12px;
-}
-
-.work-card h3 {
-  font-size: 1.15rem;
-}
-
-.work-card .work-link {
-  font-size: 0.86rem;
-  font-weight: 600;
-  color: var(--accent);
-  margin-top: auto;
-}
-
-.work-card .work-link:hover {
-  color: var(--accent-dark);
-}
-
-/* ============================================================
    Quote band
    ============================================================ */
 .quote-band {
@@ -1388,10 +1335,6 @@ section {
     grid-template-columns: repeat(3, 1fr);
   }
 
-  .work-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-
   .feature-row {
     grid-template-columns: 1fr;
     gap: 40px;
@@ -1489,7 +1432,6 @@ section {
     grid-template-columns: 1fr;
   }
 
-  .work-grid,
   .form-row {
     grid-template-columns: 1fr;
   }
