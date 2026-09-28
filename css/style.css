@@ -632,6 +632,50 @@ p {
   font-size: 0.78rem;
 }
 
+/* ---- hero handheld POS device ---- */
+.hero-visual {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 28px;
+}
+
+.hero-visual .mockup {
+  width: 100%;
+  max-width: 520px;
+}
+
+.pos-device {
+  text-align: center;
+  max-width: 400px;
+}
+
+.pos-device img {
+  display: block;
+  width: 100%;
+  max-width: 300px;
+  margin: 0 auto;
+  height: auto;
+  filter: drop-shadow(0 30px 55px rgba(2, 96, 254, 0.26));
+}
+
+.device-caption {
+  margin-top: 12px;
+  font-size: 0.86rem;
+  color: var(--ink-soft);
+}
+
+.device-caption::before {
+  content: "";
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  margin-right: 8px;
+  background: var(--gradient);
+  vertical-align: baseline;
+}
+
 /* ---- trusted marquee ---- */
 .trusted {
   margin-top: 64px;
